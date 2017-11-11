@@ -1,0 +1,13 @@
+[
+	{
+		"name":"item 1",
+		"description":"this is a generic item",
+		"price":"2.99",
+		"spicy":"true"
+	},{
+		"name":"item 2",
+		"description":"this is a second generic item",
+		"price":"6.99",
+		"spicy":"false"
+	}
+]
