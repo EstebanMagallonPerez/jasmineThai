@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<body>
+<?php include("./template/topNav.php"); ?>
 
-<div ng-app="">
-  <p>Name : <input type="text" ng-model="name"></p>
-  <h1>Hello {{name}}</h1>
+<div class="imageBanner">
+	<div class="container align-middle">
+		<h1 class="display-3">Fluid jumbotron</h1>
+		<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+	</div>
 </div>
+<h1>Hello, world!</h1>
 
-</body>
-</html>
+
+<?php include("./template/botNav.php"); ?>
