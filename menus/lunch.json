@@ -1,14 +1,14 @@
 [
 	{
-		category:"Rice Plates",
-		items:[
+		"category":"Rice Plates",
+		"items":[
 			{
-				"name":"item 1",
+				"name":"item 1 cat:rice",
 				"description":"this is a generic item",
 				"price":"2.99",
-				"spicy":"true",
+				"spicy":"true"
 			},{
-				"name":"item 2",
+				"name":"item 2 cat:rice",
 				"description":"this is a second generic item",
 				"price":"6.99",
 				"spicy":"false"
@@ -16,15 +16,15 @@
 		]
 	},
 	{
-		category:"House Specials",
-		items:[
+		"category":"House Specials",
+		"items":[
 			{
-				"name":"item 1",
+				"name":"item 1 cat:special",
 				"description":"this is a generic item",
 				"price":"2.99",
-				"spicy":"true",
+				"spicy":"true"
 			},{
-				"name":"item 2",
+				"name":"item 2 cat:special",
 				"description":"this is a second generic item",
 				"price":"6.99",
 				"spicy":"false"

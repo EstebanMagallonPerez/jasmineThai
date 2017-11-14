@@ -8,7 +8,62 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<style>
+			@media (max-width: 992px)
+			{
 
+			}
+
+			.imageBanner
+			{
+				height: 90%;
+				width: 100%;
+				background-image:url(./assets/banner.jpg);
+				background-repeat:no-repeat;
+				background-position:center;
+				background-size: cover;
+			}
+			.imageBanner>.container
+			{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50px);
+				text-align: center;
+				color: white;
+				font-weight: bold !important;
+			}
+			.nav-tabs
+			{
+				font-size: 2em;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%,0px);
+			}
+			.nav-tabs, .nav-link
+			{
+				padding: 5px;
+				border: none !important;
+			}
+			body, html{
+				height: 100%;
+			}
+			.menu-item
+			{
+				width: 50%;
+				float: left;
+			}
+			.menu-item>.top
+			{
+				color: black;
+			}
+			.menu-item>.top>span:last-child
+			{
+				float: right;
+			}
+			.menu-item>.description
+			{
+				color: slategray;
+			}
 			@media (min-width: 992px) {
 				.navbar{
 					position: absolute;
@@ -32,21 +87,15 @@
 					text-align: center;
 					font-size: 30px;
 				}
+				.menu-item
+				{
+					width: 100% !important;
+					float: none;
+				}
 
 			}
-			.imageBanner
-			{
-				height: 90%;
-				width: 100%;
-				background-image:url(./assets/banner.jpg);
-				background-repeat:no-repeat;
-				background-position:center;
-				background-size: cover;
-			}
-			body, html{
-				height: 100%;
-			}
 		</style>
+		<script src="./js/script.js"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-toggleable-md navbar-light">
