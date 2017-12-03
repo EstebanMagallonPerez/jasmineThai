@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="icon" href="./logo-amarin-web.png">
 		<meta name="author" content="Michael Brooks, Esteban Perez">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 		<title>Amarin Thai</title>
@@ -28,7 +28,7 @@
 			z-index:10000;
 		}
 		.jumbotron{
-			height:95vh;
+			height:97vh;
 			position: relative;
 			background:url(./wood.jpg);
 			background-color: #4a3a30;
@@ -93,11 +93,16 @@
 		.center {
 			text-align: center;
 		}
+		.imageBanner{
+			width: 100%;
+			float: left;
+			display: block;
+		}
 	</style>
 	<body>
 		<nav>
 			<div class="nav-wrapper">
-				<a href="#" class="brand-logo">Logo</a>
+				<a href="#" class="brand-logo"><img src="./logo-amarin-web.png" alt="Amarin Logo"></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="menu.html">Menu</a></li>
 					<li><a href="about.html">About</a></li>
@@ -116,7 +121,7 @@
 
 		<section class="secondSection">
 			<div class="container center">
-				<h1 style="margin:0;">Welcome to Amarin Thai Cuisine!</h1>
+				<h1 style="margin:0;">Welcome to<br>Amarin Thai Cuisine!</h1>
 				<br>
 				<p style="margin:0;">When you’re craving Thai food, there’s no place that has better tasting and higher quality food than Amarin Thai Cuisine. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the best service and highest quality food. Stop by at our Prospect Road, San Jose location or give us a call today.</p>
 			</div>
@@ -124,9 +129,14 @@
 
 		<section class="menuSection">
 			<div class="container center">
-				<h1 style="margin:0;">Welcome to Amarin Thai Cuisine!</h1>
+				<h1 style="margin:0;">Our Menu</h1>
 				<br>
-				<p style="margin:0;">When you’re craving Thai food, there’s no place that has better tasting and higher quality food than Amarin Thai Cuisine. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the best service and highest quality food. Stop by at our Prospect Road, San Jose location or give us a call today.</p>
+				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
+				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
+				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
+				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
+				<br>
+				<a class="waves-effect waves-light btn center">View Our Full Menu</a>
 			</div>
 		</section>
 
@@ -139,6 +149,12 @@
 		</section>
 
 
+    <div class="row" style="margin:0; padding:0;">
+      <div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./Spices.jpg" alt="Spices"></div>
+      <div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Broth.jpg" alt="Spices"></div>
+      <div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Mochi.jpg" alt="Spices"></div>
+
+    </div>
 
 
 		<footer class="page-footer  grey darken-3">
@@ -181,7 +197,7 @@
 									<td>12 - 3 PM</td>
 									<td>5 - 10 PM</td>
 								</tr>
-									<tr>
+								<tr>
 									<td>Sun</td>
 									<td>12 - 3 PM</td>
 									<td>5 - 9:30 PM</td>
