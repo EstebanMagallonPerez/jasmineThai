@@ -1,120 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="./logo-amarin-web.png">
+		<title>Amarin Thai Cuisine</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+		<meta name="description" content="Dank Thai Food">
+		<link rel="icon" href="./logo-amarin-web-iloveimg-cropped.png">
 		<meta name="author" content="Michael Brooks, Esteban Perez">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-		<title>Amarin Thai</title>
+
 		<!-- Compiled and minified CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 		<!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<style>
-		body{
-			font-family: "Montserrat", sans-serif;
-
+		.tabs .tab a{
+			font-size: 1.8rem;
+			font-weight:700;
+			color:white !important;
 		}
-		nav{
-			height:170px;
-			line-height: 170px;
-			background-color: transparent;
-			position:absolute;
-			padding-left:20px;
-			padding-right:20px;
-			z-index:10000;
-		}
-		.jumbotron{
-			height:97vh;
-			position: relative;
-			background:url(./wood.jpg);
-			background-color: #4a3a30;
-			background-size: cover;
-			padding-top: 20px;
-
-		}
-		.white-text{
-			color:white;
-		}
-		.valign{
-			display: flex;
-			align-items:center;
-			justify-content: center;
-		}
-		nav ul a{
-			font-size: 1.5rem;
-
-		}
-		nav ul a:hover{
+		.tabs .tab a:hover{
 			transition: color .3s;
 			color:aqua;
 			background-color:transparent;
-
-		}
-		.heroImg{
-			vertical-align: bottom;
-			max-width: 100%;
-			height: auto;
-			position:absolute;
-			bottom:0;
-			left: 50%;
-			transform: translate(-50%,0);
-		}
-		.bigText{
-			color:white;
-			text-align:center;
-			font-size: 5.6875rem;
-			font-weight: 900;
-			text-transform: uppercase;
-			letter-spacing: 4px;
-			line-height: 1;
-		}
-		.secondSection{
-			background: url(./texture_pattern_2X.jpg);
-			background-color: #4a3a30;
-			background-repeat: repeat;
-			background-size: auto;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			font-size:1.7rem;
-		}
-		.menuSection{
-			background: url(./character_pattern_2X.jpg);
-			background-color: #4a3a30;
-			background-repeat: repeat;
-			background-size: auto;
-			padding-top: 20px;
-			padding-bottom: 20px;
-			font-size:1.7rem;
-		}
-		.center {
-			text-align: center;
-		}
-		.imageBanner{
-			width: 100%;
-			float: left;
-			display: block;
 		}
 	</style>
 	<body>
 		<nav>
-			<div class="nav-wrapper">
-				<a href="#" class="brand-logo"><img src="./logo-amarin-web.png" alt="Amarin Logo"></a>
+			<div class="container">
+				<a href="./index.php" class="brand-logo"><img src="./logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="menu.html">Menu</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="something.html">Something</a></li>
-					<li><a href="something.html" style="font-size: 1.5rem;"class="waves-effect waves-light btn-large">Order Now</a></li>
+					<li><a href="menu.php">Menu</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+			</div>
+			<div class="nav-content">
+				<ul class="tabs tabs-transparent">
+					<li class="tab"><a href="menu.php">Menu</a></li>
+					<li class="tab"><a href="about.php">About</a></li>
 				</ul>
 			</div>
 		</nav>
+
 		<div class="jumbotron">
-			<div style="margin-top:170px;">
-				<h1 class="bigText">Amarin Thai</h1>
-				<p style="color:white; text-align: center;">I like food, I like eating, and I dont' want to deprive myself of good food.</p>
+			<div style="margin-top:30vh;">
+				<div class="container">
+					<h1 class="bigText">Amarin Thai</h1>
+					<p class="kindOfBigText">I like food, I like eating, and I dont' want to deprive myself of good food.</p>
+				</div>
 			</div>
 			<img class="heroImg center-align" src="http://www.michiramen.com/media/hero-image-2.png" alt="ramen">
 		</div>
@@ -149,30 +85,29 @@
 		</section>
 
 
-    <div class="row" style="margin:0; padding:0;">
-      <div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./Spices.jpg" alt="Spices"></div>
-      <div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Broth.jpg" alt="Spices"></div>
-      <div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Mochi.jpg" alt="Spices"></div>
+		<div class="row" style="margin:0; padding:0;">
+			<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./Spices.jpg" alt="Spices"></div>
+			<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Broth.jpg" alt="Spices"></div>
+			<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./Mochi.jpg" alt="Spices"></div>
 
-    </div>
+		</div>
 
 
 		<footer class="page-footer  grey darken-3">
 			<div class="container">
 				<div class="row">
-					<div class="col l4 s12">
+					<div class="col l6 s12">
 						<h5 class="white-text">Our Location</h5>
+						Call Us At:<br>
+						(408) 253-8424<br>
+						info@amarinthaisanjose.com
 						<p class="grey-text text-lighten-4">
-							Amarin Thai Cuisine<br>
-							5205 Prospect Rd. STE#110<br>
-							San Jose CA. 95129<br><br>
-							Get directions<br><br>
-							(408) 253-8424, (408) 359-2090<br><br>
-							info@amarinthaisanjose.com</p>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.8326522275676!2d-121.99248332099643!3d37.29278537589865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5559167bb75%3A0x359596cecb4abebc!2sAmarin+Thai+Cuisine!5e0!3m2!1sen!2sus!4v1512267648897" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</p>
 					</div>
-					<div class="col l6 offset-l2 s12">
+					<div class="col l6 s12">
 						<h5 class="white-text">Service Hours</h5>
-						<table>
+						<table class="">
 							<thead>
 								<tr>
 									<th>Day</th>

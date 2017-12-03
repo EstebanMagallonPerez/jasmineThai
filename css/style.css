@@ -1,0 +1,103 @@
+body{
+	font-family: "Montserrat", sans-serif;
+
+}
+@media only screen and (min-width: 536px){
+	nav{
+		height:162px;
+		line-height: 162px;
+		background-color: transparent;
+		position:absolute;
+		padding-left:20px;
+		padding-right:20px;
+		z-index:10000;
+	}
+}
+nav{
+	height:162px;
+	background-color: transparent;
+	position:absolute;
+	padding-left:20px;
+	padding-right:20px;
+	z-index:10000;
+}
+.jumbotron{
+	height:97vh;
+	position: relative;
+	background:url(../wood.jpg);
+	background-color: #4a3a30;
+	background-size: cover;
+	padding-top: 20px;
+
+}
+.white-text{
+	color:white;
+}
+.valign{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+nav ul a{
+	font-size: 1.8rem;
+	font-weight:700;
+
+}
+nav ul a:hover{
+	transition: color .3s;
+	color:aqua;
+	background-color:transparent;
+
+}
+.heroImg{
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+	position:absolute;
+	bottom:0;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.bigText{
+	color:white;
+	text-align:center;
+	font-size: 6rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	line-height: 1;
+}
+.secondSection{
+	background: url(../texture_pattern_2X.jpg);
+	background-color: #4a3a30;
+	background-repeat: repeat;
+	background-size: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size:1.7rem;
+}
+.menuSection{
+	background: url(../character_pattern_2X.jpg);
+	background-color: #4a3a30;
+	background-repeat: repeat;
+	background-size: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size:1.7rem;
+}
+.center {
+	text-align: center;
+}
+.imageBanner{
+	width: 100%;
+	float: left;
+	display: block;
+}
+.kindOfBigText{
+	color:white;
+	text-align:center;
+	font-size: 2rem;
+	font-weight: 400;
+	letter-spacing: 4px;
+	line-height: 1;
+}
