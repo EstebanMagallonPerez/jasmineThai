@@ -7,44 +7,61 @@
 		<meta name="description" content="Dank Thai Food">
 		<link rel="icon" href="./logo-amarin-web-iloveimg-cropped.png">
 		<meta name="author" content="Michael Brooks, Esteban Perez">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />-->
 
 		<!-- Compiled and minified CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 		<!-- Compiled and minified JavaScript -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="./css/style.css">
 	</head>
 	<style>
+		/*
 		.tabs .tab a{
-			font-size: 1.8rem;
-			font-weight:700;
-			color:white !important;
+		font-size: 1.8rem;
+		font-weight:700;
+		color:white !important;
 		}
 		.tabs .tab a:hover{
-			transition: color .3s;
-			color:aqua;
-			background-color:transparent;
+		transition: color .3s;
+		color:aqua;
+		background-color:transparent;
+		}*/
+		.tabs
+		{
+			background: transparent;
+		}
+		.tabs .tab a
+		{
+			color: white;
+		}
+		.tabs .tab a.active,.tabs .tab a:hover
+		{
+			color: aqua;
+		}
+		.tabs .indicator
+		{
+			background-color: aqua;
 		}
 	</style>
 	<body>
 		<nav>
-			<div class="container">
-				<a href="./index.php" class="brand-logo"><img src="./logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<div class="nav-wrapper">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="brand-logo center hide-on-med-and-down">
+					<li><a href="#!"><img src="./logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a></li>
+					<li><a href="menu.php">Menu</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
 					<li><a href="menu.php">Menu</a></li>
 					<li><a href="about.php">About</a></li>
 				</ul>
 			</div>
-			<div class="nav-content">
-				<ul class="tabs tabs-transparent">
-					<li class="tab"><a href="menu.php">Menu</a></li>
-					<li class="tab"><a href="about.php">About</a></li>
-				</ul>
-			</div>
 		</nav>
-
 		<div class="jumbotron">
 			<div style="margin-top:30vh;">
 				<div class="container">
@@ -67,10 +84,18 @@
 			<div class="container center">
 				<h1 style="margin:0;">Our Menu</h1>
 				<br>
-				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
-				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
-				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
-				<p style="margin:0;">SOME MENU ITEMS GO HERE.</p>
+				<div class="row">
+					<div class="col s12">
+						<ul class="tabs">
+							<li class="tab col s4"><a href="#lunch">Lunch</a></li>
+							<li class="tab col s4"><a class="active" href="#test2">Test 2</a></li>
+							<li class="tab col s4"><a href="#test4">Test 4</a></li>
+						</ul>
+					</div>
+					<div id="lunch" class="col s12">Test 1</div>
+					<div id="test2" class="col s12">Test 2</div>
+					<div id="test4" class="col s12">Test 4</div>
+				</div>
 				<br>
 				<a class="waves-effect waves-light btn center">View Our Full Menu</a>
 			</div>
@@ -149,5 +174,10 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/script.js"></script>
+		<script>
+			menu.load("lunch","lunch");
+			$(".button-collapse").sideNav();
+		</script>
 	</body>
 </html>
