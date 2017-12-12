@@ -101,3 +101,19 @@ nav ul a:hover{
 	letter-spacing: 4px;
 	line-height: 1;
 }
+.tabs
+{
+	background: transparent;
+}
+.tabs .tab a
+{
+	color: white;
+}
+.tabs .tab a.active,.tabs .tab a:hover
+{
+	color: aqua;
+}
+.tabs .indicator
+{
+	background-color: aqua;
+}
