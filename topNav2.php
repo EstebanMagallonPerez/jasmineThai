@@ -18,8 +18,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="./css/style.css">
 		<style>
-		nav{
-			background:url(./assets/img/wood.jpg);
+			nav{
+				height:162px;
+				line-height: 162px;
+				background-color: #433D3C;
 			}
 		</style>
 	</head>
@@ -42,4 +44,3 @@
 				</ul>
 			</div>
 		</nav>
-

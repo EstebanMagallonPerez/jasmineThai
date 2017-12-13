@@ -1,6 +1,6 @@
 <?php include 'topNav.php' ?>
 <div class="jumbotron">
-	<div style="margin-top:30vh;">
+	<div>
 		<div class="container">
 			<h1 class="bigText">Amarin Thai</h1>
 			<p class="kindOfBigText">I like food, I like eating, and I dont' want to deprive myself of good food.</p>
