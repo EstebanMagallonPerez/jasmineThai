@@ -1,127 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Amarin Thai Cuisine</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+		<meta name="description" content="Dank Thai Food">
+		<link rel="icon" href="./assets/img/logo-amarin-web-iloveimg-cropped.png">
+		<meta name="author" content="Michael Brooks, Esteban Perez">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />-->
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<!-- Compiled and minified JavaScript -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
 		<style>
-			@media (max-width: 992px)
-			{
-
-			}
-
-			.imageBanner
-			{
-				height: 90%;
-				width: 100%;
-				background-image:url(./assets/banner.jpg);
-				background-repeat:no-repeat;
-				background-position:center;
-				background-size: cover;
-			}
-			.imageBanner>.container
-			{
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%,-50px);
-				text-align: center;
-				color: white;
-				font-weight: bold !important;
-			}
-			.nav-tabs
-			{
-				font-size: 2em;
-				position: absolute;
-				left: 50%;
-				transform: translate(-50%,0px);
-			}
-			.nav-tabs, .nav-link
-			{
-				padding: 5px;
-				border: none !important;
-			}
-			body, html{
-				height: 100%;
-			}
-			.menu-item
-			{
-				width: 50%;
-				float: left;
-			}
-			.menu-item>.top
-			{
-				color: black;
-			}
-			.menu-item>.top>span:last-child
-			{
-				float: right;
-			}
-			.menu-item>.description
-			{
-				color: slategray;
-			}
-			@media (min-width: 992px) {
-				.navbar{
-					position: absolute;
-					left: 50%;
-					transform: translate(-50%,0px);
-				}
-				.navbar-nav {
-					float:none;
-					margin:0 auto;
-					display: block;
-					text-align: center;
-					background: transparent;
-
-				}
-
-				.navbar-nav > li, .navbar-brand{
-					display: inline-block;
-					float:none;
-					height: 60px;
-					line-height: 60px;
-					text-align: center;
-					font-size: 30px;
-				}
-				.menu-item
-				{
-					width: 100% !important;
-					float: none;
-				}
-
+		nav{
+			background:url(./assets/img/wood.jpg);
 			}
 		</style>
-		<script src="./js/script.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-toggleable-md navbar-light">
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="navbar-brand" href="#">
-							<img src="./assets/icon.svg" width="60" height="60" class="d-inline-block align-top" alt="">
-							Icon
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Menu</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Location</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
-					</li>
+		<nav>
+			<div class="nav-wrapper container">
+				<a href="#" data-activates="mobile-demo" class="button-collapse right">
+					<i class="material-icons">menu</i>
+				</a>
+				<ul class="brand-logo left hide-on-med-and-down">
+					<li><a href="index.php"><img src="./assets/img/logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a></li>
+				</ul>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="menu.php">Menu</a></li>
+					<li><a href="about.php">About</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="menu.php">Menu</a></li>
+					<li><a href="about.php">About</a></li>
 				</ul>
 			</div>
 		</nav>
 
-		<!-- jQuery first, then Tether, then Bootstrap JS. -->

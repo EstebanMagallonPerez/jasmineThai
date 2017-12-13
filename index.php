@@ -1,4 +1,4 @@
-<?php include 'topNav.php' ?>
+<?php include './template/topNav.php' ?>
 <div class="jumbotron">
 	<div>
 		<div class="container">
@@ -55,4 +55,4 @@
 </div>
 
 
-<?php include 'botNav.php' ?>
+<?php include './template/botNav.php' ?>

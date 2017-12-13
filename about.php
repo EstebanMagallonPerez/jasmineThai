@@ -1,4 +1,12 @@
-<?php include 'topNav2.php' ?>
+<?php include './template/topNav.php' ?>
+<style>
+	nav{
+		height:162px;
+		line-height: 162px;
+		background-color: #433D3C;
+		background-image:none
+	}
+</style>
 <div class="row" style="margin:0; padding:0;">
 	<img class="fullWidth" src="./assets/img/toppings-2.jpg" alt="Spices">
 </div>
@@ -40,4 +48,4 @@
 </div>
 
 
-<?php include 'botNav.php' ?>
+<?php include './template/botNav.php' ?>

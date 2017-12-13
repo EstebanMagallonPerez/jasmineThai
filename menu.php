@@ -1,5 +1,12 @@
-<?php include 'topNav2.php' ?>
-
+<?php include './template/topNav.php' ?>
+<style>
+	nav{
+		height:162px;
+		line-height: 162px;
+		background-color: #433D3C;
+		background-image:none
+	}
+</style>
 <section class="secondSection">
 	<div class="container center">
 		<h1 style="margin:0;">JOIN US FOR HAPPY HOUR</h1>
@@ -44,4 +51,4 @@
 </div>
 
 
-<?php include 'botNav.php' ?>
+<?php include './template/botNav.php' ?>
