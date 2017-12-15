@@ -7,18 +7,8 @@
 		background-image:none
 	}
 </style>
-<div class="row" style="margin:0; padding:0;">
-	<img class="fullWidth" src="./assets/img/toppings-2.jpg" alt="Spices">
-</div>
-<section class="secondSection">
-	<div class="container center">
-		<h1 style="margin:0;">JOIN US FOR HAPPY HOUR</h1>
-		<br>
-		<p style="margin:0;">3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAYS 5-11PM • $2 SAKE CARAFFES</p>
-	</div>
-</section>
 
-<section class="menuSection">
+<section class="secondSection">
 	<div class="container center">
 		<h1 style="margin:0;">Our Menu</h1>
 		<br>
@@ -36,6 +26,10 @@
 		</div>
 	</div>
 </section>
+
+<div class="row" style="margin:0; padding:0;">
+	<img class="fullWidth" src="./assets/img/toppings-2.jpg" alt="Spices">
+</div>
 
 <section class="secondSection">
 	<div class="container center">

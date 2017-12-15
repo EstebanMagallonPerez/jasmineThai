@@ -30,15 +30,15 @@
 					<i class="material-icons">menu</i>
 				</a>
 				<ul class="brand-logo left hide-on-med-and-down">
-					<li><a href="index.php"><img src="./assets/img/logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a></li>
+					<li><a href="./index"><img src="./assets/img/logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a></li>
 				</ul>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="menu.php">Menu</a></li>
-					<li><a href="about.php">About</a></li>
+					<li><a href="./menu">Menu</a></li>
+					<li><a href="./about">About</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li><a href="menu.php">Menu</a></li>
-					<li><a href="about.php">About</a></li>
+					<li><a href="./menu">Menu</a></li>
+					<li><a href="./about">About</a></li>
 				</ul>
 			</div>
 		</nav>

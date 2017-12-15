@@ -38,14 +38,6 @@
 	</div>
 </section>
 
-<section class="secondSection">
-	<div class="container center">
-		<h1 style="margin:0;">JOIN US FOR HAPPY HOUR</h1>
-		<br>
-		<p style="margin:0;">3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAYS 5-11PM • $2 SAKE CARAFFES</p>
-	</div>
-</section>
-
 
 <div class="row" style="margin:0; padding:0;">
 	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Spices.jpg" alt="Spices"></div>
