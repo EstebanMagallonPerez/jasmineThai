@@ -1,33 +1,290 @@
 [
 	{
 		"category":"Rice Plates",
+		"description":"Served with jasmine rice. Brown rice add $0.50.",
 		"items":[
 			{
-				"name":"item 1 cat:rice",
-				"description":"this is a generic item",
-				"price":"2.99",
-				"spicy":"true"
-			},{
-				"name":"item 2 cat:rice",
-				"description":"this is a second generic item",
-				"price":"6.99",
-				"spicy":"false"
+				"name": "Bangkok Khao Mok Kai",
+				"price": "11.99",
+				"description": "Thai style chicken biryani. Yellow fragrant rice sprinkled with crispy fried shallots and served with a piece of chicken.",
+				"spicy": false
+			},
+			{
+				"name": "Chicken &amp; Broccoli",
+				"price": "9.99",
+				"description": "Sautéed chicken, broccoli, garlic, and carrots, and oyster sauce",
+				"spicy": false
+			},
+			{
+				"name": "Spicy Chicken",
+				"price": "9.99",
+				"description": "Stir-fried chicken, baby corns, mushrooms, onions, jalapenos, bell peppers, garlic",
+				"spicy": true
+			},
+			{
+				"name": "Mango Chicken",
+				"price": "10.99",
+				"description": "Stir-fried chicken, cashew nuts, onions, sliced mangoes, bell peppers, ginger, Thai chili paste, soy sauce",
+				"spicy": false
+			},
+			{
+				"name": "Spicy Basil Minced Chicken",
+				"price": "9.99",
+				"description": "Sauteed minced chicken, bell &nbsp;peppers, &nbsp;garlic, and basil.",
+				"spicy": true
+			},
+			{
+				"name": "Spicy &amp; Crispy Salmon",
+				"price": "11.99",
+				"description": "Deep fried salmon topped with crispy basil, bell peppers and roasted chili paste sauce.",
+				"spicy": true
+			},
+			{
+				"name": "Ginger Chicken",
+				"price": "9.99",
+				"description": "Sautéed chicken, onion, mushrooms, bell peppers, ginger, and garlic",
+				"spicy": false
+			},
+			{
+				"name": "Fried  Rice",
+				"price": "9.99",
+				"description": "Fried rice with egg, onions, tomatoes, peas, carrots",
+				"spicy": false
+			},
+			{
+				"name": "Crab Fried Rice",
+				"price": "12.99",
+				"description": "Fried rice with crab meat, egg, peas, carrots and onions.",
+				"spicy": false
+			},
+			{
+				"name": "Spicy Basil Fried Rice",
+				"price": "9.99",
+				"description": "Fried rice with chicken, chili, garlic, bell peppers, and basil.",
+				"spicy": true
+			},
+			{
+				"name": "Spicy Eggplants",
+				"price": "9.99",
+				"description": "Sauteed eggplants, chili, bell peppers, garlic, basil",
+				"spicy": true
+			},
+			{
+				"name": "Tilapia Hot Pepper",
+				"price": "11.99",
+				"description": "Fried Tilapia fish with onion, tomatoes, and bell peppers.",
+				"spicy": true
+			},
+			{
+				"name": "Asparagus &amp; Prawns",
+				"price": "11.99",
+				"description": "Prawns, asparagus, carrots, bell peppers, onions, garlic, brown soy sauce",
+				"spicy": false
+			},
+			{
+				"name": "Garlic &amp; Ginger Fried Rice",
+				"price": "11.99",
+				"description": "Garlic &amp; ginger fried rice flavor with a choice of:",
+				"spicy": false,
+				"list":["Lemongrass chicken with fresh lettuce","Garlic prawns or calamari with steamed vegetables","Fried cod with steamed vegetables"]
 			}
 		]
 	},
 	{
-		"category":"House Specials",
+		"category":"Pan-Fried Noodles",
 		"items":[
 			{
-				"name":"item 1 cat:special",
-				"description":"this is a generic item",
-				"price":"2.99",
-				"spicy":"true"
-			},{
-				"name":"item 2 cat:special",
-				"description":"this is a second generic item",
-				"price":"6.99",
-				"spicy":"false"
+				"name": "Pad Thai",
+				"price": "10.99",
+				"description": "A famous Thai street food. Pan-fried rice noodles, chicken, shrimps, egg, bean sprouts, green onions, crushed peanuts",
+				"spicy": false
+			},
+			{
+				"name": "Jun Pud Pu",
+				"price": "11.99",
+				"description": "Spicy pan-fried noodles, crabmeat,&nbsp; bean sprouts, onions",
+				"spicy": true
+			},
+			{
+				"name": "Pad-See-Ew",
+				"price": "10.99",
+				"description": "Pan-fried wide rice noodles, chicken, egg, and broccoli",
+				"spicy": false
+			},
+			{
+				"name": "RAMA Noodles",
+				"price": "10.99",
+				"description": "Rice noodles, chicken, spinach, and peanut sauce",
+				"spicy": false
+			},
+			{
+				"name": "Kee-Maow Noodle",
+				"price": "10.99",
+				"description": "Pan-fried wide rice noodles,&nbsp; chicken, garlic, chili, bell peppers, tomatoes, and basil",
+				"spicy": true
+			},
+			{
+				"name": "Pad Woon Sen",
+				"price": "11.99",
+				"description": "Bean thread noodles (clear noodles), chicken, egg, onion, carrots, cabbage, and tomatoes",
+				"spicy": false
+			}
+		]
+	},
+	{
+		"category":"BBQ",
+		"items":[
+			{
+				"name": "BBQ Honey Pork",
+				"price": "9.99",
+				"description": "Grilled marinated honey pork; served with plum sauce, crush peanut, chili garlic",
+				"spicy": false
+			},
+			{
+				"name": "BBQ Chicken",
+				"price": "9.99",
+				"description": "Grilled marinated chicken; served with plum sauce, crush peanut, chili garlic",
+				"spicy": false
+			},
+			{
+				"name": "BBQ Honey Beef",
+				"price": "9.99",
+				"description": "Grilled marinated honey beef; served with plum sauce, crush peanut, chili garlic",
+				"spicy": false
+			}
+		]
+	},
+	{
+		"category":"Curry",
+		"items":[
+			{
+				"name": "Yellow Curry",
+				"price": "9.99",
+				"description": "Yellow curry paste, coconut milk, onions, carrots, potatoes",
+				"spicy": false
+			},
+			{
+				"name": "Mus-sa-mun Curry",
+				"price": "9.99",
+				"description": "Mild red curry paste, coconut milk, peanuts, pineapples, potatoes, carrots, onions",
+				"spicy": false
+			},
+			{
+				"name": "Green Curry",
+				"price": "9.99",
+				"description": "Green curry paste, coconut milk, bamboo shoots, peas, bell papers, basil",
+				"spicy": true
+			},
+			{
+				"name": "Panang Curry",
+				"price": "9.99",
+				"description": "Panang curry paste (red sauce), coconut milk, zucchini, bell papers, basil",
+				"spicy": true
+			},
+			{
+				"name": "Red Curry",
+				"price": "9.99",
+				"description": "Red curry paste, coconut milk, bamboo shoots, bell pepper, basil",
+				"spicy": true
+			}
+		]
+	},
+	{
+		"category":"Noodle Soups",
+		"items":[
+			{
+				"name": "Kanom Jeen Green Curry Cod",
+				"price": "11.99",
+				"description": "Soft rice noodles (Kanom Jeen), cod, green curry sauce, zucchini, bell peppers, green beans, basil",
+				"spicy": true
+			},
+			{
+				"name": "Chicken Curry Noodle Soup",
+				"price": "10.99",
+				"description": "Curry sauce, thin rice noodles, chicken, tofu, cabbage, boiled egg, onions",
+				"spicy": false
+			},
+			{
+				"name": "Hot &amp; Sour Noodle Soup",
+				"price": "9.99",
+				"description": "Rice noodles, hot &amp; sour (tom-yum) soup, chicken, cilantro",
+				"spicy": true
+			},
+			{
+				"name": "Num-Sai Noodle Soup",
+				"price": "10.99",
+				"description": "Light soup, thin rice noodles, imitation crabmeat, fish ball, shrimps, calamari, bean sprouts, onions, cilantro, fried garlic",
+				"spicy": false
+			},
+			{
+				"name": "Yen-Ta-Fo Noodle Soup",
+				"price": "10.99",
+				"description": "Thick rice noodle soup, shrimps, fish ball, calamari, tofu, spinach, chef's special sauce",
+				"spicy": false
+			},
+			{
+				"name": "Pork Noodle Clear Soup",
+				"price": "9.99",
+				"description": "Clear soup, thin rice noodles, broiled pork, minced pork, bean sprouts, onions, fried garlic, cilantro",
+				"spicy": false
+			},
+			{
+				"name": "Sukho Thai Noodle Soup",
+				"price": "10.99",
+				"description": "Rice noodle soup, broiled pork, minced pork, imitation crabmeat, onions, fried garlic, cilantro, crushed peanut",
+				"spicy": false
+			},
+			{
+				"name": "Coconut Milk Noodle Soup",
+				"price": "10.99",
+				"description": "Rice noodles, coconut milk soup, chicken, onions, cilantro",
+				"spicy": false
+			},
+			{
+				"name": "Duck Noodle Soup",
+				"price": "11.99",
+				"description": "Thick broth, rice noodles, duck, boiled egg, bean sprouts, onions, celery",
+				"spicy": false
+			}
+		]
+	},
+	{
+		"category":"Side Dishes",
+		"items":[
+			{
+				"name": "Steamed Jasmine Rice",
+				"price": "1.50",
+				"spicy": false
+			},
+			{
+				"name": "Brown Rice",
+				"price": "2.00",
+				"spicy": false
+			},
+			{
+				"name": "Sticky Rice",
+				"price": "2.00",
+				"spicy": false
+			},
+			{
+				"name": "Garlic &amp; Ginger Rice",
+				"price": "6.99",
+				"spicy": false
+			},
+			{
+				"name": "Peanut Sauce",
+				"price": "1.50",
+				"spicy": false
+			},
+			{
+				"name": "Cucumber Salad",
+				"price": "1.50",
+				"spicy": false
+			},
+			{
+				"name": "Fried Egg",
+				"price": "2.50",
+				"spicy": false
 			}
 		]
 	}

@@ -57,6 +57,8 @@
 		<script src="./js/script.js"></script>
 		<script>
 			menu.load("lunch","lunch");
+			menu.load("dinner","dinner");
+			menu.load("gross","vegetarian");
 			$(".button-collapse").sideNav();
 		</script>
 	</body>

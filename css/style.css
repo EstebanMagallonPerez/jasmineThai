@@ -115,3 +115,40 @@ nav ul a:hover{
 	height:auto;
 	vertical-align: bottom;
 }
+.menu-item
+{
+	float: left;
+	width: 50%;
+	padding: 4px;
+}
+.menu-item > .top
+{
+	color: white;
+}
+.menu-item > .top >.price
+{
+	float: right;
+}
+.menu-item > .description
+{
+	color: #424242;
+	/*text-align: left;*/
+}
+.menu-item > .list
+{
+	color: #424242;
+	text-align: left;
+}
+.category
+{
+	width: 100%;
+	display: inline-block;
+}
+@media screen and (max-width: 600px) {
+	.menu-item
+	{
+		float:none;
+		width: 100%;
+		padding: 4px;
+	}
+}
