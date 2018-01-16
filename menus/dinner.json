@@ -1,404 +1,457 @@
 [
 	{
-		"category":"House Specials",
+		"category":"Appetizers",
 		"items":[
 			{
 				"name": "Spring Roll",
-				"price": "7.99",
-				"description": "Deep-fried wrapped rice paper rolls stuffed with vegetables and bean thread noodles (clear noodles) served piping hot with plum sauce.",
+				"price": "8.99",
+				"description": "A mix of cabbage, taro, carrot, celery, onion and bean thread noodles wrapped in flour paper deep fried and served with plum sauce",
 				"spicy": false
 			},
 			{
 				"name": "Roti",
-				"price": "7.99",
-				"description": "Our famous Thai style pan toasted roti flat bread served with flavorful dipping sauce and a side of cucumber salad.",
-				"spicy": false
-			},
-			{
-				"name": "Shrimp Fresh Rolls",
 				"price": "8.99",
-				"description": "Fresh rice paper rolls stuffed with shrimps, cucumber, lettuce, carrots, onion, and cilantro. Served with delightful dipping sauce.",
+				"description": "Thai styled flat bread accompanied by flavourful peanut sauce & cucumber salad",
 				"spicy": false
 			},
 			{
-				"name": "Chicken Satay Fresh Rolls",
-				"price": "8.99",
-				"description": "Fresh spring rolls stuffed with chicken satay, cucumber, lettuce, carrots, onions and fresh cilantro wrapped in rice paper served with delightful dipping sauce.",
+				"name": "Grilled chicken freshroll",
+				"price": "10.99",
+				"description": "romain, carrot, cucumber, onion, cilantro with peanut sauce",
 				"spicy": false
 			},
 			{
-				"name": "Roasted Duck Fresh Rolls",
+				"name": "Shrimp freshroll",
+				"price": "11.99",
+				"description": "romain, carrot, cucumber, onion, cilantro with a mix of tamarind sauce &peanut",
+				"spicy": false
+			},
+			{
+				"name": "Roasted duck freshroll",
+				"price": "11.99",
+				"description": "romain, carrot, cucumber, onion, cilantro with a hoysin sauce",
+				"spicy": false
+			},
+			{
+				"name": "Tofu freshroll",
 				"price": "9.99",
-				"description": "Fresh spring rolls stuffed with roasted duck, cucumber, lettuce, carrots, onions and fresh cilantro wrapped in rice paper served with delightful dipping sauce.",
+				"description": "black mushroom, carrot, cucumber, onion, cilantro, bean sprouts a mix of tamarind & peanut sauce",
 				"spicy": false
 			},
 			{
-				"name": "Fish Cakes",
-				"price": "8.99",
-				"description": "Deep-fried traditional Thai style fish cakes seasoned with battered fish fillets and red curry paste mixed with chopped green bean and kaffir lime leaves.&nbsp; Served with cucumber salad and crushed peanuts dipping sauce.",
+				"name": "Salad freshroll",
+				"price": "9.99",
+				"description": "fresh mint, carrot, romain, cucumber, onion, cilantro, and imitation crab served with spicy garlic lime sauce & peanut",
 				"spicy": false
 			},
 			{
-				"name": "Chicken or Beef Satay",
-				"price": "8.99",
-				"description": "Grilled skewered chicken or beef marinated with Thai herbs and spices. Served with peanut sauce and cucumber salad on the side.",
+				"name": "Fish Cake",
+				"price": "10.99",
+				"description": "Fish mousse mixed w/green bean,red curry paste served w/cucumber ,crushed peanut sweet & sour sauce",
+				"spicy": false
+			},
+			{
+				"name": "Hot sticky wings",
+				"price": "10.99",
+				"description": "Fried chicken wings tossed in sweet, hot & sour sauce",
 				"spicy": false
 			},
 			{
 				"name": "Thai Samosa",
-				"price": "7.99",
-				"description": "Deep-fried crispy rice flour paper stuffed with assorted potatoes, onions, peas, and carrots; seasoned with curry powder.",
+				"price": "8.99",
+				"description": "Mashed potato,onion,carrot,pea with curry powder wrapped in flour paper",
+				"spicy": false
+			},
+			{
+				"name": "Chicken satay",
+				"price": "9.99",
+				"description": "Grilled marinated chicken on skewers; served with peanut sauce cucumber salad",
 				"spicy": false
 			},
 			{
 				"name": "Coconut Prawns",
-				"price": "8.99",
-				"description": "Deep-fried prawns coated with seasoned Thai herbs, crisp shredded coconut, and roasted peanuts. Served with tangy homemade dipping sauce.",
+				"price": "10.99",
+				"description": "Battered fried shrimp with coconut flakes on a romain blanket served with lime, ginger, shallot, peanut and bell pepper",
 				"spicy": false
 			},
 			{
-				"name": "Mieng Kum",
-				"price": "8.99",
-				"description": "A traditional Thai snack consists of fresh lettuces topped with dried shrimps, roasted coconut flakes, assorted Thai herbs and roasted peanuts.&nbsp; Served with homemade dipping sauce.",
+				"name": "Heavenly grilled pork",
+				"price": "10.99",
+				"description": "Traditional Thai style grilled pork served with tangy spicy dipping sauce",
 				"spicy": false
 			},
 			{
 				"name": "Chili Crusted Calamari",
-				"price": "8.99",
-				"description": "Your choice of deep-fried or grilled calamari served with a homemade dipping sauce.",
-				"spicy": false
-			},
-			{
-				"name": "Hot Sticky Wings",
-				"price": "8.99",
-				"description": "Fried chicken wings served with chef's special dipping sauce.",
-				"spicy": false
-			},
-			{
-				"name": "Angel Wings",
-				"price": "9.99",
-				"description": "Deep-fried de-boned chicken wings stuffed with ground chicken and vegetables. Served with cucumber salad &amp; crushed peanut.",
-				"spicy": false
-			},
-			{
-				"name": "Lamb",
-				"price": "16.99",
-				"description": "Choose one from the following taste choices:",
-				"spicy": false
-			},
-			{
-				"name": "Prawns Curry",
-				"price": "13.99",
-				"description": "Prawns, red curry paste, coconut milk, pineapples, bell peppers, tomatoes, basil",
-				"spicy": true
-			},
-			{
-				"name": "Grilled Scallops",
-				"price": "16.99",
-				"description": "Choose one from the following taste choices:",
-				"spicy": false
-			},
-			{
-				"name": "Prawns or Squids",
-				"price": "13.99",
-				"description": "Sautéed prawns or squids with a choice of the following tastes:",
-				"spicy": false
-			},
-			{
-				"name": "BASA Fillet",
-				"price": "13.99",
-				"description": "BASA Fillet with a choice of the following tastes:",
-				"spicy": false
-			},
-			{
-				"name": "Salmon Fillet",
-				"price": "16.99",
-				"description": "Choose one from the following taste choices:",
-				"spicy": false
-			},
-			{
-				"name": "Tamarind Prawns",
-				"price": "16.99",
-				"description": "Grilled prawns served with tamarind sauce, snap peas, spinach, and cilantro.",
-				"spicy": false
-			},
-			{
-				"name": "Panang Curry Seafood",
-				"price": "16.99",
-				"description": "Combination seafood cooked in panang curry paste, coconut milk, zucchinis, bell peppers, and basil.",
-				"spicy": true
-			},
-			{
-				"name": "Chili Seafood",
-				"price": "16.99",
-				"description": "Sautéed combination seafood, zucchinis, bell peppers, chili, garlic, basil",
-				"spicy": true
-			},
-			{
-				"name": "Fried Tilapia",
-				"price": "16.99",
-				"description": "Tilapia Fillet, mushrooms, onion, baby corns, and bell peppers topped with a choice of hot &amp; sour sauce or chili sauce.",
-				"spicy": true
-			},
-			{
-				"name": "Sea-bass",
-				"price": "18.99",
-				"description": "Choose one from the following taste choices:",
-				"spicy": false
-			},
-			{
-				"name": "Cashew Chicken",
 				"price": "10.99",
-				"description": "Sautéed chicken breast, cashew nuts, bell peppers, onions, chili, and fried chili with roasted chili sauce.",
+				"description": "Fried Calamari served with homemade sauce",
 				"spicy": false
-			},
-			{
-				"name": "Ginger Chicken",
-				"price": "10.99",
-				"description": "Sautéed chicken breast, straw mushrooms, bell peppers, onion, celery, fresh ginger, and garlic.",
-				"spicy": false
-			},
-			{
-				"name": "Special Mango Chicken",
-				"price": "11.99",
-				"description": "Sautéed chicken breast, fresh mango, cashew nuts, bell peppers, and onions with roasted chili sauce.",
-				"spicy": true
-			},
-			{
-				"name": "Special Mango Prawns",
-				"price": "14.99",
-				"description": "Sautéed prawns, fresh mango, cashew nuts, bell peppers, and onions with roasted chili sauce.",
-				"spicy": true
-			},
-			{
-				"name": "Garlic Chicken or Pork",
-				"price": "12.99",
-				"description": "Sautéed chicken breast or pork, garlic, black pepper, cilantro",
-				"spicy": false
-			},
-			{
-				"name": "Spicy Thai Basil Chicken",
-				"price": "10.99",
-				"description": "Sautéed minced chicken, bell peppers, garlic, chili, and basil.",
-				"spicy": true
-			},
-			{
-				"name": "Chili Pork with Green Beans",
-				"price": "11.99",
-				"description": "Sautéed pork, garlic and green beans with roasted red curry sauce.",
-				"spicy": true
-			},
-			{
-				"name": "Spicy Eggplants",
-				"price": "10.99",
-				"description": "Sautéed minced chicken or pork, eggplants, bell peppers, soybean, garlic, chili, and basil.",
-				"spicy": true
-			},
-			{
-				"name": "Spicy Catfish",
-				"price": "13.99",
-				"description": "Sautéed catfish with roasted red curry sauce, bell peppers and basil.",
-				"spicy": true
-			},
-			{
-				"name": "Three Companies",
-				"price": "12.99",
-				"description": "Sautéed prawns, squids, chicken, bean thread noodles (clear noodles), cabbages, broccoli, carrots, celery, and onions.",
-				"spicy": false
-			},
-			{
-				"name": "Drunken Lemongrass Chicken",
-				"price": "12.99",
-				"description": "Grilled chicken breast, asparagus and mixed vegetables with spicy lemongrass sauce.",
-				"spicy": false
-			},
-			{
-				"name": "Spicy Hot Pepper Chicken",
-				"price": "11.99",
-				"description": "Sautéed chicken, baby corns, mushrooms, onion, garlic, bell pepper, and jalapeno.",
-				"spicy": true
-			},
+			}			
+		]
+	},
+	{
+		"category":"Soup",
+		"items":[
 			{
 				"name": "Seafood and Vegetables Soup",
 				"description": "Spices herbal soup with cabbages, baby corns, mushrooms, onion, carrots, celery, cilantro and combination seafood.",
 				"spicy": false,
 				"table":
 				{
-					"columnNames":["Bowl","Small","Large"],
-					"rows":[["6.99","10.99","15.99"]]
+					"columnNames":["Small","Large"],
+					"rows":[["10.99","15.99"]]
 				}
 			},
 			{
 				"name": "Tom Kha Soup (Coconut Milk Soup)",
 				"description": "Spices herbal coconut milk soup with baby corns, mushrooms, cilantro your choice of meat or seafood.",
-				"spicy": false,
+				"spicy": true,
 				"table":
 				{
-					"columnNames":["","Bowl","Small","Large"],
-					"rows":[["Chicken","6.99","9.99","14.99"],["Prawns","6.99","10.99","15.99"],["Seafood","not available","10.99","15.99"]]
+					"columnNames":["Small","Large"],
+					"rows":[["Chicken","9.99","14.99"],["Prawns","10.99","15.99"],["Seafood","10.99","15.99"]]
 				}
 			},
 			{
 				"name": "Tom Yum Soup (Hot &amp; Sour Soup)",
 				"description": "Spices herbal hot &amp; sour soup with lemongrass, mushrooms and your choice of meat or seafood.",
+				"spicy": true,
+				"table":
+				{
+					"columnNames":["Small","Large"],
+					"rows":[["Chicken","9.99","14.99"],["Prawns","10.99","15.99"],["Seafood","10.99","15.99"]]
+				}
+			}			
+		]
+	},
+	{
+		"category":"Salad",
+		"items":[
+			{
+				"name": "NamTok Pork",
+				"price": "12.99",
+				"description": "Grilled pork flat iron : mixed w/ ground roasted rice, onion, cilantro & spicy lime sauce",
 				"spicy": true
 			},
 			{
-				"name": "Bangkok Salad (Yum Yai)",
-				"price": "8.99",
-				"description": "Assorted vegetables, sliced chicken and sliced hard broiled egg mixed in light salad dressing topped with roasted ground peanut.",
-				"spicy": false
-			},
-			{
 				"name": "Som-Tum (Green Papaya Salad)",
-				"price": "8.99",
+				"price": "10.99",
 				"description": "Shredded green papaya with green beans, carrots, tomatoes, roasted peanut, fresh garlic, Thai chili, and fresh lime juice.",
 				"spicy": true
 			},
 			{
+				"name": "Som-Tum laos(Green Papaya Salad)",
+				"price": "11.99",
+				"description": "garlic, chilli, anchovy sauce, shredded green papaya, tomato, green bean",
+				"spicy": true
+			},
+			{
+				"name": "Som-Tum Phu (Green Papaya Salad)",
+				"price": "11.99",
+				"description": "Shredded green papaya, garlic, chilli, salted black crab, tomato, greenbean, anchovy sauce",
+				"spicy": true
+			},
+			{
 				"name": "BBQ Beef Salad",
-				"price": "10.99",
+				"price": "12.99",
 				"description": "Grilled beef with Thai herbs and roasted chili mixed in spicy lime dressing.",
 				"spicy": true
 			},
 			{
-				"name": "Larb Salad",
-				"price": "9.99",
-				"description": "Your choice of minced chicken or minced pork with fresh cilantro, mint leaves, onions, and ground-roasted rice in spicy lime dressing.",
+				"name": "Larb Chicken Salad",
+				"price": "11.99",
+				"description": "Chicken with ground-roasted rice, onion, cilantro, mint & spicy lime dressing",
 				"spicy": true
 			},
 			{
 				"name": "Bean-Thread Noodle Salad",
 				"price": "12.99",
-				"description": "Bean-thread noodles (clear noodles) with your choice of minced chicken or minced pork, shrimps, and squids in spicy lime dressing.",
+				"description": "Bean thread noodles, shrimp, chicken, onion, cilantro w/ spicy lime dressing",
+				"spicy": true
+			},
+			{
+				"name": "Mango Salad with Prawns",
+				"price": "12.99",
+				"description": "Grilled prawns tossed with mango, onions, cilantro, cashews nut w/ spicy lime dressing",
 				"spicy": true
 			},
 			{
 				"name": "Eggplant Salad",
 				"price": "12.99",
-				"description": "Chinese eggplant with shrimps, minced chicken, onions and fresh cilantro in spicy dressing.",
+				"description": "Grilled eggplant, shrimp, chicken, onion, cilantro w/ spicy lime dressing",
 				"spicy": true
-			},
-			{
-				"name": "Crispy Tilapia Salad",
-				"price": "12.99",
-				"description": "Minced deep-fried tilapia with mango, onion, ginger, cilantro, and cashew nuts mixed in spicy lime dressing",
-				"spicy": true
-			},
-			{
-				"name": "Mango &amp; Prawns Salad",
-				"price": "12.99",
-				"description": "Grilled prawns with fresh mango, onions, fresh cilantro, and cashew nuts in spicy lime dressing.",
-				"spicy": true
-			},
-			{
-				"name": "4-Star Hot &amp; Sour",
-				"price": "11.99",
-				"description": "BBQ pork or chicken topped with garlic, onion, and cilantro mixed in spicy lime sauce.",
-				"spicy": true
-			},
+			}
+		]
+	},
+	{
+		"category":"BBQ",
+		"items":[
 			{
 				"name": "Tiger Cry",
-				"price": "12.99",
-				"description": "Grilled New York steak served with steamed vegetables and spicy dipping sauce.",
-				"spicy": false
+				"price": "14.99",
+				"description": "Grilled New York steak served with steamed vegetables and spicy dipping sauce",
+				"spicy": true
 			},
 			{
 				"name": "BBQ Honey Beef",
-				"price": "10.99",
-				"description": "Grilled marinated beef; served with crushed peanut tangy plum sauce.",
+				"price": "11.99",
+				"description": "Grilled marinated beef; served with crushed peanut tangy plum sauce",
 				"spicy": false
 			},
 			{
 				"name": "BBQ Honey Pork",
-				"price": "10.99",
-				"description": "Grilled pork marinated with Thai spices; served with crushed peanut tangy plum sauce.",
+				"price": "11.99",
+				"description": "Grilled pork marinated with Thai spices; served with crushed peanut tangy plum sauce",
 				"spicy": false
 			},
 			{
 				"name": "BBQ Chicken",
-				"price": "12.99",
-				"description": "Grilled whole chicken marinated with Thai spices; served with crushed peanut tangy plum sauce.",
+				"price": "13.99",
+				"description": "Grilled whole chicken marinated with Thai spices; served with crushed peanut tangy plum sauce",
 				"spicy": false
 			},
+			{
+				"name": "E-Sarn Steak",
+				"price": "15.99",
+				"description": "Grilled lamb served with french fried & spicy dipping sauce",
+				"spicy": false
+			}
+		]
+	},
+	{
+		"category":"Curry",
+		"description":"Chicken or pork price as shown, beef (+$1) or, prawns, squid or fish (+$3)",
+		"items":[
 			{
 				"name": "Mus-Sa-Mun Curry",
-				"price": "11.99",
-				"description": "Mild red curry paste, coconut milk, potatoes, carrots, pineapples, peanuts, onions",
-				"spicy": false
-			},
-			{
-				"name": "Red Curry",
-				"price": "11.99",
-				"description": "Red curry paste, coconut milk, bamboo shoots, bell papers, sweet basil",
-				"spicy": true
-			},
-			{
-				"name": "Forest Curry (no coconut milk)",
 				"price": "12.99",
-				"description": "Red curry paste, bamboo shoots, green beans, zucchini, mushrooms, baby corns, galangal, young green peppers, basil. <em>*cooked without coconut milk.</em>",
-				"spicy": true
-			},
-			{
-				"name": "Pa-Nang Curry",
-				"price": "11.99",
-				"description": "Mild red curry paste, coconut milk, zucchini, bell papers, basil",
-				"spicy": true
-			},
-			{
-				"name": "Green Curry",
-				"price": "11.99",
-				"description": "Green curry paste, coconut milk, bamboo shoots, peas, bell papers, basil",
+				"description": "Mild red curry paste, potatoes, carrots, pineapple, peanut, onion, and coconut milk",
 				"spicy": true
 			},
 			{
 				"name": "Yellow Curry",
-				"price": "11.99",
-				"description": "Yellow curry paste, coconut milk, potatoes, carrots, onion",
+				"price": "12.99",
+				"description": "Yellow curry paste, potato, carrot, onions, and coconut milk",
 				"spicy": false
 			},
 			{
-				"name": "Pumpkin Curry",
+				"name": "Red Curry",
 				"price": "12.99",
-				"description": "Red curry paste, coconut milk, pumpkins, basil",
+				"description": "Red curry paste, bamboo, bell peppers, Thai basil and coconut milk",
+				"spicy": true
+			},
+			{
+				"name": "Forest Curry",
+				"price": "13.99",
+				"description": "Red curry paste, greenbean, bamboo, zucchini, mushroom, babycorn, bell pepper, peppercorn, galingale, Thai basil <em>*cooked without coconut milk.</em>",
+				"spicy": true
+			},
+			{
+				"name": "Pa-Nang Curry",
+				"price": "12.99",
+				"description": "Mild red curry paste, zucchini, bell pepper, Thai basil and coconut milk",
+				"spicy": true
+			},
+			{
+				"name": "Green Curry",
+				"price": "12.99",
+				"description": "Green curry paste, bamboo, bell pepper, peas, Thai basil and coconut milk",
+				"spicy": true
+			},
+			{
+				"name": "Pumpkin Curry",
+				"price": "13.99",
+				"description": "Red curry paste, pumpkin, bell pepper, red curry with coconut milk & Thai basil",
 				"spicy": true
 			},
 			{
 				"name": "Pineapple Curry",
-				"price": "12.99",
-				"description": "Red curry paste, coconut milk, pineapples, bell peppers, tomatoes, peas, and basil.",
+				"price": "13.99",
+				"description": "Red curry paste, coconut milk, pineapple, bell pepper, tomato, peas, red curry with coconut milk & Thai basil",
 				"spicy": true
 			},
 			{
 				"name": "Super Green Curry",
-				"price": "12.99",
-				"description": "Green curry paste, coconut milk, kale, spinach, green beans, broccoli, bell papers, carrots, and basil.",
+				"price": "14.99",
+				"description": "Cabbage, eggplant, broccoli, green bean, bell pepper, spinach, galingale, pea, Thai basil, green curry with coconut milk",
 				"spicy": true
 			},
 			{
-				"name": "Thai Fried Rice",
-				"description": "Fried rice with egg.",
-				"spicy": false
-			},
-			{
-				"name": "Spicy Fried Rice",
-				"description": "Fried rice, chili, garlic, bell peppers, and basil.",
+				"name": "Duck Curry",
+				"price": "17.99",
+				"description": "Red curry paste, coconut milk, pineapple, bell pepper, tomato, pea, red curry, coconut milk & Thai basil",
 				"spicy": true
 			},
 			{
-				"name": "Curry Fried Rice",
-				"description": "Fried rice with a choice of green or red curry flavored and green beans",
+				"name": "Panang Seafood",
+				"price": "18.99",
+				"description": "Combination seafood, zucchini, bell pepper, Thai basil w/coconut milk",
+				"spicy": true
+			}
+		]
+	},
+	{
+		"category":"Stir Fried",
+		"description":"Chicken or pork 13.99, beef 14.99 or, prawns, squid or fish $15.99",
+		"items":[
+
+			{
+				"name": "Ginger Sauce",
+				"description": "mushroom, bell pepper, onion, celery with ginger garlic and brown sauce",
 				"spicy": false
 			},
 			{
-				"name": "House Special Fried Rice",
-				"price": "11.99",
-				"description": "Fried rice, chicken, prawns, pineapples, peas, carrots, cashew nuts, and onions.",
+				"name": "Cashew Chicken",
+				"description": "cashew nut, bell pepper, onion & roasted chili sauce with chili paste",
 				"spicy": false
 			},
+			{
+				"name": "Spicy Thai Basil",
+				"description": "Sautéed minced chicken, bell pepper, Thai basil with garlic and chili",
+				"spicy": true
+			},
+			{
+				"name": "Chili Green Beans",
+				"description": "Sautéed green beans, bell pepper with roasted chili paste amd garlic",
+				"spicy": true
+			},
+			{
+				"name": "Spicy Eggplants",
+				"description": "Minced pork /or chicken, eggplant, bell peppers, garlic, chili and Thai basil",
+				"spicy": true
+			},
+			{
+				"name": "Chicken with Mixed Green",
+				"description": "cabbage, spinach,broccoli, carrot, green bean with garlic and light brown sauce",
+				"spicy": false
+			},
+			{
+				"name": "Spicy Hot Pepper",
+				"description": "Sautéed baby corn, mushroom ,onion, carrot, garlic, bell pepper and jalapeño",
+				"spicy": true
+			},
+			{
+				"name": "Broccoli with Oyster Sauce",
+				"description": "Sautéed broccoli with garlic, onion, carrot",
+				"spicy": false
+			},
+			{
+				"name": "Garlic Chicken or Pork",
+				"description": "Sautéed chicken breast or pork, garlic, black pepper, cilantro",
+				"spicy": false
+			},
+			{
+				"name": "Beef pepppercorn",
+				"description": "Sautéed beef, bell pepper,young pepper corn, onion, garlic, black pepper sauce",
+				"spicy": false
+			}
+		]
+	},
+	{
+		"category":"Special",
+		"items":[
+			{
+				"name": "Asparagus Prawns (seasonal)",
+				"price": "14.99",
+				"description": "Sautéed onion,carrot,asparagus with light soy sauce",
+				"spicy": false
+			},
+			{
+				"name": "Drunken Lemongrass Chicken",
+				"price": "14.99",
+				"description": "Grilled chicken breast, asparagus and mixed vegetables with spicy lemongrass sauce.",
+				"spicy": false
+			},
+			{
+				"name": "Deep-Fried Deviled Eggs with Basil Chicken",
+				"price": "14.99",
+				"description": "Sautéed minced chicken, bell pepper, sweet basil with garlic &chili",
+				"spicy": true
+			},
+			{
+				"name": "Crispy Salmon",
+				"price": "16.99",
+				"description": "Fried batter Salmon sautéed w/ roasted red curry sauce bell pepper & Thai basil",
+				"spicy": true
+			},
+			{
+				"name": "Spicy Catfish",
+				"price": "15.99",
+				"description": "Fried Catfish toss w/chilli paste ,bell pepper,galingale,pepper corn& Thai basil",
+				"spicy": true
+			}
+		]
+	},
+	{
+		"category":"House Special",
+		"items":[
+			{
+				"name": "PaNang Fried Fish",
+				"price": "15.99",
+				"description": "Fried Basa fish in panang coconut curry with zucchini, red bell, thai basil",
+				"spicy": true
+			},
+			{
+				"name": "Basa Fillet Lime Sauce",
+				"price": "15.99",
+				"description": "steamed fish with ginger served with cabbage,garlic, fresh chili ,lime sauce",
+				"spicy": true
+			},
+			{
+				"name": "Hoa-Mok Fish",
+				"price": "14.99",
+				"description": "Cod, Cabbage basil, egg, coconut milk with chili paste in banana leaf bow",
+				"spicy": true
+			},
+			{
+				"name": "Tamarind Praws",
+				"price": "16.99",
+				"description": "Grilled prawns served with tamarind sauce, spinach, cilantro,crispy shallot",
+				"spicy": false
+			},
+			{
+				"name": "Lamb",
+				"price": "18.99",
+				"list":["Yellow curry: Grilled lamb cooked with potato, carrot, onion", 
+					"Mus-Sa-Mun Curry: Grilled lamb cooked with potato, carrot, onion, pineapple,peanut"],
+				"spicy": false
+			},
+			{
+				"name": "Salmon",
+				"price": "16.99",
+				"list":["Green Mango Salsa: Grilled fillet salmon; mango, ginger, onion, cilantro,bell pepper w/ spicy sauce", 
+					"Tamarind Sauce: Grilled fillet salmon; served tamarind sauce,spinach,cilantro,crispy shallot", 
+					"Green Curry: eggplant, peas, bell pepper, thai basil & coconut milk"],
+				"spicy": true
+			},
+			{
+				"name": "Fried Filet Tilapia",
+				"price": "15.99",
+				"list":["Chili sauce : Fried tilapia with onion,mushroom,baby corn,carrot,bell pepper", 
+					"Hot-sweet-sour sauce: Fried tilapia with pineapple,onion,tomato,bell pepper"],
+				"spicy": true
+			},
+			{
+				"name": "Turmeric Southern Curry",
+				"price": "15.99",
+				"description": "Flavored turmeric healthly non coconut curry, mild spicy with basa fish, prawns, cauliflower, greenbean, carrot and cabbage",
+				"spicy": true
+			},
+			{
+				"name": "Green Papaya PadThai (no noodle)",
+				"price": "13.99",
+				"description": "woked fried shredded papaya, green bean ,broccoli, carrot, beansprouts, egg, onion, prawns with pad thai sauce",
+				"spicy": true
+			}
+
+		]
+	},
+	{
+		"category":"Rice and Noodle",
+		"description":"Choice of chicken, or pork 11.99, beef, prawns or squid 12.99, or combo 15.99",
+		"items":[
 			{
 				"name": "Pad Thai",
-				"description": "A famous Thai street food, pan-fried rice noodles with egg, bean sprouts, and green onions. Garnished with crushed peanuts.",
+				"description": "A famous Thai street food, pan-fried rice noodles with egg, beansprouts, and green onions. Garnished with crushed peanuts.",
 				"spicy": false
 			},
 			{
@@ -408,44 +461,64 @@
 			},
 			{
 				"name": "Pad Kee-Maow",
-				"description": "Pan-fried wide rice noodles with garlic, fresh chili, bell peppers, tomatoes, and basil.",
+				"description": "Pan-fried wide rice noodles with garlic, fresh chili, bell peppers, tomatoes, and Thai basil.",
 				"spicy": true
 			},
 			{
+				"name": "Spicy Fried Rice",
+				"description": "Fried rice, chili, garlic, bell peppers, and basil.",
+				"spicy": true
+			},
+			{
+
+				"name": "Pad Woon Sen",
+				"description": "Pan fried bean thread noodle with egg, cabbage, carrot, and onion",
+				"spicy": false
+			},
+			{
+				"name": "Thai Fried Rice",
+				"description": "Friend rice with egg ,onion ,pea ,carrot & tomato",
+				"spicy": false
+			},
+			
+			{
+				"name": "Curry Fried Rice",
+				"description": "Fried rice with a choice of green or red curry flavored and green beans",
+				"spicy": true
+			},
+			{
+				"name": "House Special Fried Rice",
+				"price": "11.99",
+				"description": "Fried rice, chicken, prawns, pineapples, peas, carrots, cashew nuts, and onions.",
+				"spicy": false
+			},
+			{
+				"name":"Crab Fried Rice",
+				"price": "14.99",
+				"description":"Special Thai fried rice with crab, egg, and green onions",
+				"spicy": false
+			},
+			{
+				"name":"Garlic and Ginger Fried Rice",
+				"price": "7.99",
+				"spicy": false
+			},
+			{
 				"name": "Steamed Jasmine Rice",
-				"price": "1.50",
+				"price": "2.00",
 				"spicy": false
 			},
 			{
 				"name": "Brown Rice",
-				"price": "2.00",
+				"price": "2.50",
 				"spicy": false
 			},
 			{
 				"name": "Sticky Rice",
-				"price": "2.00",
-				"spicy": false
-			},
-			{
-				"name": "Garlic &amp; Ginger Rice",
-				"price": "6.99",
-				"spicy": false
-			},
-			{
-				"name": "Peanut Sauce",
-				"price": "1.50",
-				"spicy": false
-			},
-			{
-				"name": "Cucumber Salad",
-				"price": "1.50",
-				"spicy": false
-			},
-			{
-				"name": "Fried Egg",
-				"price": "2.50",
+				"price": "3.00",
 				"spicy": false
 			}
 		]
 	}
+	
 ]
