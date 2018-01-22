@@ -5,7 +5,7 @@
 						<h5 class="white-text">Our Location</h5>
 						Call Us At:<br>
 						(408) 253-8424<br>
-						info@amarinthaisanjose.com
+						amarinthai.cuisine@gmail.com
 						<p class="grey-text text-lighten-4">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.8326522275676!2d-121.99248332099643!3d37.29278537589865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5559167bb75%3A0x359596cecb4abebc!2sAmarin+Thai+Cuisine!5e0!3m2!1sen!2sus!4v1512267648897" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</p>
@@ -54,12 +54,5 @@
 				</div>
 			</div>
 		</footer>
-		<script src="./js/script.js"></script>
-		<script>
-			menu.load("lunch","lunch");
-			menu.load("dinner","dinner");
-			menu.load("gross","vegetarian");
-			$(".button-collapse").sideNav();
-		</script>
 	</body>
 </html>
