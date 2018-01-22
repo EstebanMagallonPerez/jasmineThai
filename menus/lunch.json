@@ -86,7 +86,8 @@
 			{
 				"name": "Pad-See-Ew",
 				"description": "Pan-fried wide rice noodles, egg, and broccoli",
-				"spicy": false
+				"spicy": false,
+				"top":true
 			},
 			{
 				"name": "Kee-Maow Noodle",
