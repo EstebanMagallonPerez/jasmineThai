@@ -6,7 +6,7 @@
 			<p class="kindOfBigText">I like food, I like eating, and I dont' want to deprive myself of good food.</p>
 		</div>
 	</div>
-	<img class="heroImg center-align" src="http://www.michiramen.com/media/hero-image-2.png" alt="ramen">
+	<img class="heroImg center-align" src="./assets/img/Beam2.png" alt="ramen">
 </div>
 
 <section class="secondSection">
@@ -34,7 +34,7 @@
 			<div id="vegetarian" class="col s12">Test 4</div>
 		</div>
 		<br>
-		<a class="waves-effect waves-light btn center">View Our Full Menu</a>
+		<a class="waves-effect waves-light btn center" href="./menu.php">View Our Full Menu</a>
 	</div>
 </section>
 
@@ -45,5 +45,11 @@
 	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Mochi.jpg" alt="Spices"></div>
 
 </div>
-
+<script src="./js/script.js"></script>
+<script>
+	menu.loadTop("lunch","lunch");
+	menu.loadTop("dinner","dinner");
+	menu.loadTop("gross","vegetarian");
+	$(".button-collapse").sideNav();
+</script>
 <?php include './template/botNav.php' ?>

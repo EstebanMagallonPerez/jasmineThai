@@ -46,6 +46,12 @@
 	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Mochi.jpg" alt="Spices"></div>
 
 </div>
-
+<script src="./js/script.js"></script>
+<script>
+	menu.load("lunch","lunch");
+	menu.load("dinner","dinner");
+	menu.load("gross","vegetarian");
+	$(".button-collapse").sideNav();
+</script>
 
 <?php include './template/botNav.php' ?>
