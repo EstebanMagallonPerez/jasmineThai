@@ -109,7 +109,8 @@
 				{
 					"columnNames":["Small","Large"],
 					"rows":[["Chicken","9.99","14.99"],["Prawns","10.99","15.99"],["Seafood","10.99","15.99"]]
-				}
+				},
+				"top":true
 			},
 			{
 				"name": "Tom Yum Soup (Hot &amp; Sour Soup)",
@@ -172,7 +173,8 @@
 				"name": "Mango Salad with Prawns",
 				"price": "12.99",
 				"description": "Grilled prawns tossed with mango, onions, cilantro, cashews nut w/ spicy lime dressing",
-				"spicy": true
+				"spicy": true,
+				"top":true
 			},
 			{
 				"name": "Eggplant Salad",
@@ -365,7 +367,8 @@
 				"name": "Deep-Fried Deviled Eggs with Basil Chicken",
 				"price": "14.99",
 				"description": "Sautéed minced chicken, bell pepper, sweet basil with garlic &chili",
-				"spicy": true
+				"spicy": true,
+				"top":true
 			},
 			{
 				"name": "Crispy Salmon",

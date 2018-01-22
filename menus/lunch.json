@@ -4,10 +4,11 @@
 		"description":"Served with jasmine rice or brown rice (+$0.50), salad, fruit, and daily appetizer.",
 		"items":[
 			{
-				"name": "Spicy Basil Minced Chicken pr Minced Pork",
+				"name": "Spicy Basil Minced Chicken or Minced Pork",
 				"price": "11.99",
 				"description": "Mince Chicken cooked with spicy basil sauce, garlic, bell pepper, Thai basil",
-				"spicy": true
+				"spicy": true,
+				"top":true
 			},
 			{
 				"name": "Spicy Chicken, or Pork, or Beef (+$1), or Shrimp (+$2)",
@@ -48,7 +49,8 @@
 			{
 				"name": "Yellow Curry",
 				"description": "Yellow curry paste, coconut milk, onions, carrots, potatoes",
-				"spicy": false
+				"spicy": false,
+				"top":true
 			},
 			{
 				"name": "Mus-sa-mun Curry",
@@ -105,7 +107,7 @@
 				"name": "Spicy Thai Basil Fried Rice",
 				"description": "Fried rice with Thai basil, chili, garlic, and bell peppers",
 				"spicy": true
-			},
+			}
 		]
 	},
 	{
@@ -133,7 +135,8 @@
 				"name": "Sukho Thai Noodle Soup",
 				"price": "10.99",
 				"description": "Rice noodle soup, broiled pork, minced pork, imitation crab, onions, fried garlic, cilantro, crushed peanut",
-				"spicy": true
+				"spicy": true,
+				"top":true
 			},
 			{
 				"name": "Wonton Soup",
@@ -170,7 +173,7 @@
 				"name": "Cucumber Salad",
 				"price": "2.00",
 				"spicy": false
-			},
+			}
 		]
 	}
 ]

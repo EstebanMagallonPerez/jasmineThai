@@ -18,7 +18,8 @@
 				"name": "Fresh Rolls",
 				"price": "9.99",
 				"description": "Tofu, mushroom, vegetables wrapped with rice paper served with tamarind and peanut sauce.",
-				"spicy": false
+				"spicy": false,
+				"top":true
 			},
 			{
 				"name": "Vegetables Tempura",
@@ -74,7 +75,7 @@
 				"table":
 				{
 					"columnNames":["Small","Large"],
-					"rows":["9.99","14.99"]
+					"rows":[["9.99","14.99"]]
 				}
 			},
 			{
@@ -84,7 +85,7 @@
 				"table":
 				{
 					"columnNames":["Small","Large"],
-					"rows":["9.99","14.99"]
+					"rows":[["9.99","14.99"]]
 				}
 			},
 			{
@@ -94,7 +95,7 @@
 				"table":
 				{
 					"columnNames":["Small","Large"],
-					"rows":["9.99","13.99"]
+					"rows":[["9.99","13.99"]]
 				}
 			},
 			{
@@ -104,7 +105,7 @@
 				"table":
 				{
 					"columnNames":["Small","Large"],
-					"rows":["9.99","14.99"]
+					"rows":[["9.99","14.99"]]
 				}
 			}
 		]
@@ -328,7 +329,8 @@
 				"name": "Pad Thai Veggie",
 				"price": "11.99",
 				"description": "Pan-fried rice noodles with tofu, baby corns, broccoli, carrots, bean sprouts, green onions, and egg. Garnished with crushed peanuts.",
-				"spicy": false
+				"spicy": false,
+				"top":true
 			},
 			{
 				"name": "Green Papaya Pad Thai",
