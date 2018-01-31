@@ -4,8 +4,25 @@ body{
 }
 @media only screen and (max-width: 600px){
     nav{
-        max-height:64px;
-        line-height: 64px;
+        max-height:56px;
+        line-height: 56px;
+    }
+    .bigText{
+        color:white !important;
+        text-align:center !important;
+        font-size: 5rem !important;
+        font-weight: 900 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 4px !important;
+        line-height: 1 !important;
+    }
+    .kindOfBigText{
+        color:white !important;
+        text-align:center !important;
+        font-size: 1.5rem !important;
+        font-weight: 400 !important;
+        letter-spacing: 4px !important;
+        line-height: 1 !important;
     }
 }
 nav{
@@ -101,7 +118,7 @@ nav ul a:hover{
 .kindOfBigText{
     color:white;
     text-align:center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 400;
     letter-spacing: 4px;
     line-height: 1;
