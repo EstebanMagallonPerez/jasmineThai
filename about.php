@@ -1,8 +1,8 @@
 <?php include './template/topNav.php' ?>
 <style>
 	nav{
-		height:162px;
-		line-height: 162px;
+		height:64px;
+		line-height: 64px;
 		background-color: #433D3C;
 		background-image:none
 	}

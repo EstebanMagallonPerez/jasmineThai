@@ -113,6 +113,7 @@ nav ul a:hover{
 .tabs .tab a
 {
 	color: black;
+    font-size:16px;
 }
 .tabs .tab a.active,.tabs .tab a:hover
 {
@@ -131,6 +132,7 @@ nav ul a:hover{
 {
 	float: left;
 	width: 50%;
+    min-height: 230px;
 }
 .menu-item > .top
 {
@@ -166,4 +168,7 @@ nav ul a:hover{
 }
 .ineeditsmaller{
     height: -webkit-fill-available;
+}
+p{
+    margin:0;
 }

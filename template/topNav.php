@@ -32,11 +32,11 @@
                   <a href="./index" class="brand-logo left hide-on-med-and-down"><img class="ineeditsmaller" src="./assets/img/logo-amarin-web-iloveimg-cropped.png" alt="Amarin Logo"></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="./menu">Menu</a></li>
-                    <!--<li><a href="./about">About</a></li>-->
+                    <li><a href="./about">About</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="./menu">Menu</a></li>
-                    <!--<li><a href="./about">About</a></li>-->
+                    <li><a href="./about">About</a></li>
 
                 </ul>
             </div>

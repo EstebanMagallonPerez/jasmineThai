@@ -5,7 +5,7 @@
             {
                 "name": "Spring Roll",
                 "price": "8.99",
-                "description": "A mix of cabbage, taro, carrot, celery, onion and bean thread noodles wrapped in flour paper deep fried and served with plum sauce",
+                "description": "Cabbage, taro, carrot, celery, onion and bean thread noodles wrapped in flour paper deep fried; served with plum sauce",
                 "spicy": false
             },
             {
@@ -92,7 +92,7 @@
         "category":"Soup",
         "items":[
             {
-                "name": "Tom Kha Soup (Coconut Milk Soup)",
+                "name": "Tom Kha Soup",
                 "description": "Spices herbal coconut milk soup with baby corns, mushrooms, cilantro your choice of meat or seafood.",
                 "spicy": true,
                 "table":
@@ -502,6 +502,7 @@
                 "spicy": false
             },
             {
+
                 "name":"Garlic and Ginger Fried Rice",
                 "price": "7.99",
                 "spicy": false

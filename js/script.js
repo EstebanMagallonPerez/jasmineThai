@@ -22,10 +22,6 @@ var menu =
 							{
 								populatedMenu += "<div class='menu-item container'><div class='top'>";
 								populatedMenu += "<span>"+dishes[dish].name+"</span>";
-								if(dishes[dish].price)
-								{
-									populatedMenu += "<span class='price'>$"+dishes[dish].price+"</span>";
-								}
 								populatedMenu += "</div>";
 								if(dishes[dish].description)
 								{
@@ -34,10 +30,6 @@ var menu =
 								if(dishes[dish].list)
 								{
 									populatedMenu += scope.makeList(dishes[dish].list);
-								}
-								if(dishes[dish].table)
-								{
-									populatedMenu += scope.makeTable(dishes[dish].table);
 								}
 								populatedMenu += "</div>";
 							}
