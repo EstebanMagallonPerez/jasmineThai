@@ -101,7 +101,7 @@ nav ul a:hover{
 .kindOfBigText{
 	color:white;
 	text-align:center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 	letter-spacing: 4px;
 	line-height: 1;
@@ -112,15 +112,15 @@ nav ul a:hover{
 }
 .tabs .tab a
 {
-	color: white;
+	color: black;
 }
 .tabs .tab a.active,.tabs .tab a:hover
 {
-	color: aqua;
+	color: #26A69A;
 }
 .tabs .indicator
 {
-	background-color: aqua;
+	background-color: #26A69A;
 }
 .fullWidth{
 	max-width:100%;
@@ -131,11 +131,10 @@ nav ul a:hover{
 {
 	float: left;
 	width: 50%;
-	padding: 4px;
 }
 .menu-item > .top
 {
-	color: white;
+	color: black;
 }
 .menu-item > .top >.price
 {
@@ -144,6 +143,7 @@ nav ul a:hover{
 .menu-item > .description
 {
 	color: #424242;
+    font-size:10;
 	/*text-align: left;*/
 }
 .menu-item > .list
@@ -163,4 +163,7 @@ nav ul a:hover{
 		width: 100%;
 		padding: 4px;
 	}
+}
+.ineeditsmaller{
+    height: -webkit-fill-available;
 }

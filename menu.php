@@ -1,8 +1,8 @@
 <?php include './template/topNav.php' ?>
 <style>
 	nav{
-		height:162px;
-		line-height: 162px;
+		height:64px;
+		line-height: 64px;
 		background-color: #433D3C;
 		background-image:none
 	}
@@ -20,9 +20,9 @@
 					<li class="tab col s4"><a href="#vegetarian">Vegetarian</a></li>
 				</ul>
 			</div>
-			<div id="lunch" class="col s12">Test 1</div>
-			<div id="dinner" class="col s12">Test 2</div>
-			<div id="vegetarian" class="col s12">Test 4</div>
+			<div id="lunch" class="col s12">Lunch</div>
+			<div id="dinner" class="col s12">Dinner</div>
+			<div id="vegetarian" class="col s12">Vegetarian</div>
 		</div>
 	</div>
 </section>

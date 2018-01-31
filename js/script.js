@@ -81,7 +81,7 @@ var menu =
 							populatedMenu += "</div>";
 							if(dishes[dish].description)
 							{
-								populatedMenu += "<div class='description'><span>"+dishes[dish].description+"</span></div>";
+								populatedMenu += "<div class='description'><p>"+dishes[dish].description+"</p></div>";
 							}
 							if(dishes[dish].list)
 							{
@@ -104,12 +104,12 @@ var menu =
 			xhttp.send();
 		},
 		makeTable:function (elem){
-			var output = "<table><tr>";
+			var output = "<table><thead><tr>";
 			for(var i =0; i < elem.columnNames.length;i++)
 			{
 				output+="<th>"+elem.columnNames[i]+"</th>";
 			}
-			output+="</tr>"
+			output+="</tr></thead>"
 			for(var i =0; i < elem.rows.length;i++)
 			{
 				output+="<tr>"
