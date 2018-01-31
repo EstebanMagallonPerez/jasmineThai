@@ -1,170 +1,170 @@
 body{
-	font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 
 }
 @media only screen and (max-width: 600px){
-	nav{
-		max-height:64px;
-		line-height: 64px;
-	}
+    nav{
+        max-height:64px;
+        line-height: 64px;
+    }
 }
 nav{
-	height:162px;
-	line-height: 162px;
-	background-color: transparent;
-	z-index:1;
+    height:162px;
+    line-height: 162px;
+    background-color: transparent;
+    z-index:1;
 }
 .jumbotron{
-	height:80vh;
-	position: relative;
-	background:url(../assets/img/wood.jpg);
-	background-color: #4a3a30;
-	background-size: cover;
-	padding-top: 20px;
+    height:80vh;
+    position: relative;
+    background:url(../assets/img/wood.jpg);
+    background-color: #4a3a30;
+    background-size: cover;
+    padding-top: 20px;
 
 }
 .white-text{
-	color:white;
+    color:white;
 }
 .valign{
-	display: flex;
-	align-items:center;
-	justify-content: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 nav ul a{
-	font-size: 1.8rem;
-	font-weight:700;
+    font-size: 1.8rem;
+    font-weight:700;
 
 }
 nav ul a:hover{
-	transition: color .3s;
-	color:#F6AD49;
-	background-color:transparent;
+    transition: color .3s;
+    color:#F6AD49;
+    background-color:transparent;
 
 }
 .heroImg{
-	vertical-align: bottom;
-	max-width: 50%;
-	height: auto;
-	position:absolute;
-	bottom:0;
-	left: 50%;
-	transform: translate(-50%,0);
+    vertical-align: bottom;
+    max-width: 50%;
+    height: auto;
+    position:absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 @media (max-width: 992px)
 {
-	.heroImg{
-		max-width: 75%;
-	}
+    .heroImg{
+        max-width: 75%;
+    }
 }
 @media (max-width: 600px)
 {
-	.heroImg{
-		max-width: 90%;
-	}
+    .heroImg{
+        max-width: 90%;
+    }
 }
 .bigText{
-	color:white;
-	text-align:center;
-	font-size: 6rem;
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	line-height: 1;
+    color:white;
+    text-align:center;
+    font-size: 6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1;
 }
 .secondSection{
-	background: url(../assets/img/texture_pattern_2X.jpg);
-	background-color: #4a3a30;
-	background-repeat: repeat;
-	background-size: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size:1.7rem;
+    background: url(../assets/img/texture_pattern_2X.jpg);
+    background-color: #4a3a30;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:1.7rem;
 }
 .menuSection{
-	background: url(../assets/img/character_pattern_2X.jpg);
-	background-color: #4a3a30;
-	background-repeat: repeat;
-	background-size: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size:1.7rem;
+    background: url(../assets/img/character_pattern_2X.jpg);
+    background-color: #4a3a30;
+    background-repeat: repeat;
+    background-size: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:1.7rem;
 }
 .center {
-	text-align: center;
+    text-align: center;
 }
 .imageBanner{
-	width: 100%;
-	float: left;
-	display: block;
+    width: 100%;
+    float: left;
+    display: block;
 }
 .kindOfBigText{
-	color:white;
-	text-align:center;
-	font-size: 1.5rem;
-	font-weight: 400;
-	letter-spacing: 4px;
-	line-height: 1;
+    color:white;
+    text-align:center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1;
 }
 .tabs
 {
-	background: transparent;
+    background: transparent;
 }
 .tabs .tab a
 {
-	color: black;
+    color: black;
     font-size:16px;
 }
 .tabs .tab a.active,.tabs .tab a:hover
 {
-	color: #26A69A;
+    color: #26A69A;
 }
 .tabs .indicator
 {
-	background-color: #26A69A;
+    background-color: #26A69A;
 }
 .fullWidth{
-	max-width:100%;
-	height:auto;
-	vertical-align: bottom;
+    max-width:100%;
+    height:auto;
+    vertical-align: bottom;
 }
 .menu-item
 {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
     min-height: 230px;
 }
 .menu-item > .top
 {
-	color: black;
+    color: black;
 }
 .menu-item > .top >.price
 {
-	float: right;
+    float: right;
 }
 .menu-item > .description
 {
-	color: #424242;
+    color: #424242;
     font-size:10;
-	/*text-align: left;*/
+    /*text-align: left;*/
 }
 .menu-item > .list
 {
-	color: #424242;
-	text-align: left;
+    color: #424242;
+    text-align: left;
 }
 .category
 {
-	width: 100%;
-	display: inline-block;
+    width: 100%;
+    display: inline-block;
 }
 @media screen and (max-width: 600px) {
-	.menu-item
-	{
-		float:none;
-		width: 100%;
-		padding: 4px;
-	}
+    .menu-item
+    {
+        float:none;
+        width: 100%;
+        padding: 4px;
+    }
 }
 
 .ineeditsmaller{
@@ -174,10 +174,11 @@ p{
     margin:0;
 }
 img {
-  opacity: 1;
-  transition: opacity 0.3s;
+    opacity: 1;
+    transition: opacity 0.3s;
 }
 
 img[data-src] {
-  opacity: 0;
+    opacity: 0;
+    display:none;
 }

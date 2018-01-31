@@ -28,7 +28,7 @@
 </section>
 
 <div class="row" style="margin:0; padding:0;">
-	<img class="fullWidth" src="./assets/img/toppings-2.jpg" alt="Spices">
+	<img class="fullWidth lazy" data-src="./assets/img/toppings-2.jpg" alt="Spices">
 </div>
 
 <section class="secondSection">
@@ -41,9 +41,9 @@
 
 
 <div class="row" style="margin:0; padding:0;">
-	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Spices.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Broth.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Mochi.jpg" alt="Spices"></div>
+	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Spices.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Broth.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Mochi.jpg" alt="Spices"></div>
 
 </div>
 <script src="./js/script.js"></script>

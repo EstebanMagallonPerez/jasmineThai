@@ -6,7 +6,7 @@
 			<p class="kindOfBigText">I like food, I like eating, and I dont' want to deprive myself of good food.</p>
 		</div>
 	</div>
-	<img class="heroImg center-align" src="./assets/img/Beam2.png" alt="ramen">
+	<img class="heroImg center-align lazy" data-src="./assets/img/Beam2.png" alt="ramen">
 </div>
 
 <section class="secondSection">
@@ -40,9 +40,9 @@
 
 
 <div class="row" style="margin:0; padding:0;">
-	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Spices.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Broth.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner" src="./assets/img/Mochi.jpg" alt="Spices"></div>
+	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Spices.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Broth.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Mochi.jpg" alt="Spices"></div>
 
 </div>
 <script src="./js/script.js"></script>
