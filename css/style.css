@@ -30,6 +30,12 @@ body{
     p{
         font-size: 1.5rem !important;
     }
+    .menu-item
+    {
+        float: left;
+        width: 50%;
+        min-height: 100px;
+    }
 }
 nav{
     height:162px;
@@ -131,7 +137,7 @@ nav ul a:hover{
 }
 .tabs
 {
-    background: transparent;
+    background: rgba(0,0,0,0.05);
 }
 .tabs .tab a
 {
@@ -141,6 +147,7 @@ nav ul a:hover{
 .tabs .tab a.active,.tabs .tab a:hover
 {
     color: #26A69A;
+    background: rgba(0,0,0,.01)
 }
 .tabs .indicator
 {
@@ -155,15 +162,19 @@ nav ul a:hover{
 {
     float: left;
     width: 50%;
-    min-height: 230px;
+    min-height: 200px;
 }
-.menu-item > .top
-{
+.menuTitle{
+    font-weight:600;
+}
+.menu-item > .top >.dishName{
+    font-weight:600;
     color: black;
 }
 .menu-item > .top >.price
 {
     float: right;
+    color: #424242;
 }
 .menu-item > .description
 {

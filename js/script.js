@@ -10,7 +10,7 @@ var menu =
                 if (this.readyState == 4 && this.status == 200) {
                     menuItems = JSON.parse(xhttp.responseText);
                     scope.items = menuItems;
-                    var populatedMenu = '<div class="" style="overflow: hidden;padding-top:8px;padding-bottom:8px;">';
+                    var populatedMenu = '<div class="" style="overflow: hidden;padding-top:8px;">';
                     populatedMenu += "<div class='category'><h4>Popular Items</h4>"
                     for(var category in menuItems)
                     {
@@ -57,7 +57,7 @@ var menu =
                     for(var category in menuItems)
                     {
                         var dishes = menuItems[category].items;
-                        populatedMenu += "<div class='category'><h4>"+menuItems[category].category+"</h4>"
+                        populatedMenu += "<div class='category'><h3 class='menuTitle'>"+menuItems[category].category+"</h3>"
                         if(menuItems[category].description)
                         {
                             populatedMenu += "<h5>"+menuItems[category].description+"</h5></div>"
@@ -65,7 +65,7 @@ var menu =
                         for(var dish in dishes)
                         {
                             populatedMenu += "<div class='menu-item container'><div class='top'>";
-                            populatedMenu += "<span>"+dishes[dish].name+"</span>";
+                            populatedMenu += "<span class='dishName'>"+dishes[dish].name+"</span>";
                             if(dishes[dish].price)
                             {
                                 populatedMenu += "<span class='price'>$"+dishes[dish].price+"</span>";

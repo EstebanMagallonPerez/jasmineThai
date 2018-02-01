@@ -32,9 +32,8 @@
 			<div id="lunch" class="col s12">Lunch</div>
 			<div id="dinner" class="col s12">Dinner</div>
 			<div id="vegetarian" class="col s12">Vegetarian</div>
-		</div>
-		<br>
-		<a class="waves-effect waves-light btn center" href="./menu.php">View Our Full Menu</a>
+        </div>
+		<a class="waves-effect waves-light btn-large center" href="./menu.php">View Our Full Menu</a>
 	</div>
 </section>
 
