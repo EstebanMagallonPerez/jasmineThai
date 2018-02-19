@@ -7,9 +7,6 @@
 		background-image:none
 	}
 </style>
-<div class="row" style="margin:0; padding:0;">
-	<img class="fullWidth lazy" data-src="./assets/img/toppings-2.jpg" alt="Spices">
-</div>
 <section class="secondSection lazy">
 	<div class="container center">
 		<h1 style="margin:0;">Welcome to<br>Amarin Thai Cuisine!</h1>
@@ -21,30 +18,9 @@
 </section>
 
 <div class="row" style="margin:0; padding:0;">
-	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Spices.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Broth.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Mochi.jpg" alt="Spices"></div>
-</div>
-
-<section class="secondSection">
-	<div class="container center">
-		<h1 style="margin:0;">OUR STORY</h1>
-		<br>
-		<div class="row">
-			<div class="col s12 m6">
-				When you’re craving Thai food, there’s no place that has better tasting and higher quality food than Amarin Thai Cuisine. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the
-			</div>
-			<div class="col s12 m6">
-				. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the best service and highest quality food. Stop by at our Prospect Road, San Jose location or give us a call today.
-			</div>
-		</div>
-
-	</div>
-</section>
-
-
-<div class="row" style="margin:0; padding:0;">
-	<img class="fullWidth lazy" data-src="./assets/img/toppings-2.jpg" alt="Spices">
+	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/28277923_10215371409948592_407139853_o.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/27652769_10215222120136440_878516879_o.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/28277958_10215371412268650_1904276277_o.jpg" alt="Spices"></div>
 </div>
 
 

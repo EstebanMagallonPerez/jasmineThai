@@ -37,12 +37,11 @@
 	</div>
 </section>
 
-
+<!--Image Banner-->
 <div class="row" style="margin:0; padding:0;">
-	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Spices.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Broth.jpg" alt="Spices"></div>
-	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/Mochi.jpg" alt="Spices"></div>
-
+	<div class="col m4 s12" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/28277923_10215371409948592_407139853_o.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/27652769_10215222120136440_878516879_o.jpg" alt="Spices"></div>
+	<div class="col m4 s12 hide-on-small-only" style="margin:0; padding:0;"><img class="imageBanner lazy" data-src="./assets/img/28277958_10215371412268650_1904276277_o.jpg" alt="Spices"></div>
 </div>
 <script src="./js/script.js"></script>
 <script>
