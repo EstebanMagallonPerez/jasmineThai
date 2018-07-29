@@ -13,7 +13,7 @@
 	<div class="container center">
 		<h1 style="margin:0;">Welcome to<br>Amarin Thai Cuisine!</h1>
 		<br>
-		<p style="margin:0;">When you’re craving Thai food, there’s no place that has better tasting and higher quality food than Amarin Thai Cuisine. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the best service and highest quality food. Stop by at our Prospect Road, San Jose location or give us a call today.</p>
+		<p style="margin:0;">When you’re craving Thai food, there’s no place that has better tasting and higher quality food than Amarin Thai Cuisine. Whether you’re stopping by for a quick lunch or want catering for your party, we always give you the best service and highest quality food. Stop by at our Prospect Road, San Jose location or give us a call today.<br>Catering special: 10% discount!!!</p>
 	</div>
 </section>
 
