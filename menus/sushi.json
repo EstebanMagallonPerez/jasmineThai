@@ -146,15 +146,100 @@
             {
                 "name": "Veggie Lover Roll",
                 "price": "12",
-                "description": "(Inside) Avocado, cucumber, inari, gobo & oshink\n (outside) Sesame, radish sprout & seaweed salad",
+                "description": "(Inside) Avocado, cucumber, inari, gobo & oshinko\n(outside) Sesame, radish sprout & seaweed salad",
                 "spicy": false
             },
             {
-                "name": "Veggie Lover Roll",
+                "name": "Deep-fried Veggie Roll",
                 "price": "12",
-                "description": "Sauteed cabbages, broccoli, baby corns, carrot, green bean and garlic",
+                "description": "(Inside) assorted veggies tempura, avocado & broccoli\n(outside) sesame\n(sauce) sweet & sour and sweet sauce",
+                "spicy": false
+            },
+            {
+                "name": "Hot Veggie Fire Roll",
+                "price": "12",
+                "description": "(Inside) avocado, cucumber, gobo & jalapeño\n(outside) seaweed salad, fried onion, fried garlic, green onion & sesame\n(sauce) sweet sauce, spicy mayo & wasabi",
+                "spicy": false
+            },
+            {
+                "name": "Veggie Sushi Combo",
+                "price": "12",
+                "description": "vegetable (7 pcs) and avocado roll (6pcs)",
                 "spicy": false
             }
+        ]
+    },
+    {
+        "category":"Basic Rolls",
+        "items":[
+            {
+                "name": "California Roll",
+                "price": "6",
+                "description": "Imitation crab, avocado & cucumber",
+                "spicy": false
+            },
+            {
+                "name": "Spicy Tuna Roll",
+                "price": "7",
+                "description": "Spicy tuna and cucumber",
+                "spicy": false
+            },
+            {
+                "name": "Philly Roll",
+                "price": "8",
+                "description": "Salmon, avocado and cream cheese",
+                "spicy": false
+            },
+            {
+                "name": "Golden Cali",
+                "price": "10",
+                "description": "Deep-fried California roll baked with cheese",
+                "spicy": false
+            },
+            {
+                "name": "Deep-Fried Cali",
+                "price": "7",
+                "spicy": false
+            },
+            {
+                "name": "Tekka Maki",
+                "price": "5",
+                "spicy": false
+            },
+            {
+                "name": "Kappa Maki",
+                "price": "4",
+                "spicy": false
+            },
+            {
+                "name": "Avocado Roll",
+                "price": "4",
+                "spicy": false
+            },
+            {
+                "name": "Unagi Roll",
+                "price": "8",
+                "description": "Unagi, avocado & sesame",
+                "spicy": false
+            },
+            {
+                "name": "Salmon Skin Roll",
+                "price": "7",
+                "description": "Salmon Skin, cucumber, gobo, radish sprout & sesame",
+                "spicy": false
+            }
+        ]
+    },
+    {
+        "category":"Special Rolls",
+        "items":[
+            {
+                "name": "California Roll",
+                "price": "6",
+                "description": "Imitation crab, avocado & cucumber",
+                "spicy": false
+            },
+            
         ]
     }
 ]
