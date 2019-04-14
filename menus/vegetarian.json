@@ -3,12 +3,6 @@
         "category":"Appetizers",
         "items":[
             {
-                "name": "Thai Golden Bag",
-                "price": "7.99",
-                "description": "Deep-fried wrapped rice paper stuffed with marinated soy protein, corns, carrots, garbanzo beans, peas, and onion served with plum sauce.",
-                "spicy": false
-            },
-            {
                 "name": "Fried Spring Rolls",
                 "price": "8.99",
                 "description": "Deep-fried wrapped rice paper rolls stuffed with mixed vegetables and bean thread noodles (clear noodles) served with plum sauce",

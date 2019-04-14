@@ -3,7 +3,7 @@ var menu =
         items: {},
         loadTop:function (menuType, elementID)
         {
-            var menuList={lunch:"lunch.json","dinner":"dinner.json","gross":"vegetarian.json"};
+            var menuList={lunch:"lunch.json","dinner":"dinner.json","gross":"vegetarian.json","sushi":"sushi.json"};
             var xhttp = new XMLHttpRequest();
             var scope = this;
             xhttp.onreadystatechange = function() {
@@ -45,7 +45,7 @@ var menu =
         },
         load: function (menuType, elementID)
         {
-            var menuList={lunch:"lunch.json","dinner":"dinner.json","gross":"vegetarian.json"};
+            var menuList={lunch:"lunch.json","dinner":"dinner.json","gross":"vegetarian.json","sushi":"sushi.json"};
 
             var xhttp = new XMLHttpRequest();
             var scope = this;

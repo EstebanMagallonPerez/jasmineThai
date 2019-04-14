@@ -1,0 +1,160 @@
+[
+    {
+        "category":"Appetizers",
+        "items":[
+            {
+                "name": "Sashimi (7 pcs)",
+                "price": "13",
+                "description": "Tuna, Salmon & Yellowtail",
+                "spicy": false
+            },
+            {
+                "name": "Cajun Tuna (7 pcs)",
+                "price": "15",
+                "description": "Seared tuna with Cajun seasoning, fried garlic & green onion",
+                "spicy": false
+            },
+            {
+                "name": "Hamachi Cappachio (7 pcs)",
+                "price": "15",
+                "description": "Seared tuna with Cajun seasoning, fried garlic & green onion",
+                "spicy": false
+            },
+            {
+                "name": "Garlic Albacore (7 pcs)",
+                "price": "15",
+                "description": "Albacore with cooked garlic, pepper & fried onion",
+                "spicy": false
+            },
+            {
+                "name": "Mushroom Ball (6 pcs)",
+                "price": "12",
+                "description": "Deep fried button mushroom with spicy tuna, avocado & cream cheese",
+                "spicy": false
+            },
+            {
+                "name": "Crispy Rice with Spicy Tuna (3 pcs)",
+                "price": "12",
+                "description": "Crispy rice served with spicy tuna on top",
+                "spicy": false
+            },
+            {
+                "name": "Snapper Cheese Steak",
+                "price": "12",
+                "description": "Deep fried snapper topped with chili powder, onion, jalapeño & baked cheese",
+                "spicy": false
+            },
+            {
+                "name": "Fried Oyster (5 pcs)",
+                "price": "10",
+                "spicy": false
+            },
+            {
+                "name": "Battered Fried Softshell Crab",
+                "price": "9",
+                "spicy": false
+            },
+            {
+                "name": "Jalapeño Bomb (4 pcs)",
+                "price": "8",
+                "spicy": false
+            },
+            {
+                "name": "Fresh Oyster (5 pcs)",
+                "price": "10",
+                "spicy": false
+            },
+            {
+                "name": "Hamachi Kama",
+                "price": "12",
+                "spicy": false
+            },
+            {
+                "name": "Gyoza (5 pcs)",
+                "price": "7",
+                "description": "deep-fried dumpling (veggie & chicken)",
+                "spicy": false
+            },
+            {
+                "name": "Veggies Tempura",
+                "price": "10",
+                "description": "Assorted Mixed Veggies",
+                "spicy": false
+            },
+            {
+                "name": "Shrimp Tempura",
+                "price": "12",
+                "description": "5 pieces of deep-fried battered shrimp",
+                "spicy": false
+            },
+            {
+                "name": "Mixed Tempura",
+                "price": "12",
+                "description": "2 pieces of deep-fried battered shrimp along with assorted mixed veggies",
+                "spicy": false
+            }
+        ]
+    },
+    {
+        "category":"Salads",
+        "items":[
+            {
+                "name": "Ichiban Salad",
+                "price": "15",
+                "description": "Spicy tuna, avocado, mango, spring mix, radish sprout in special sauce",
+                "spicy": false
+            },
+            {
+                "name": "Snow Crab Salad",
+                "price": "15",
+                "description": "Romain lettuce, spring mix, snow crab, radish sprout, tobiko, masago, green onion in special sauce",
+                "spicy": false
+            },
+            {
+                "name": "Veggie Nara salad (vegetarian)",
+                "price": "12",
+                "description": "Romain lettuce, spring mix and assorted veggies, tomato and crispy rice in special sauce",
+                "spicy": false
+            },
+            {
+                "name": "Spicy Sashimi Salad",
+                "price": "16",
+                "description": "Romain lettuce, spring mix, radish sprout, tobiko, green onion, tomato, assorted sashimi in special spicy sauce",
+                "spicy": false
+            },
+            {
+                "name": "Salmon Skin Salad",
+                "price": "12",
+                "description": "Romain lettuce, spring mix, radish sprout, tobiko, green onion, tomato and salmon skin in special sauce",
+                "spicy": false
+            },
+            {
+                "name": "Cucumber Salad with Octopus and Shrimp",
+                "price": "12",
+                "spicy": false
+            },
+            {
+                "name": "Seaweed Salad",
+                "price": "6",
+                "spicy": false
+            }
+        ]
+    },
+    {
+        "category":"Special Vegetarian Sushi",
+        "items":[
+            {
+                "name": "Veggie Lover Roll",
+                "price": "12",
+                "description": "(Inside) Avocado, cucumber, inari, gobo & oshink\n (outside) Sesame, radish sprout & seaweed salad",
+                "spicy": false
+            },
+            {
+                "name": "Veggie Lover Roll",
+                "price": "12",
+                "description": "Sauteed cabbages, broccoli, baby corns, carrot, green bean and garlic",
+                "spicy": false
+            }
+        ]
+    }
+]

@@ -27,12 +27,6 @@
                 "spicy": false
             },
             {
-                "name": "Roasted duck freshroll",
-                "price": "11.99",
-                "description": "romain, carrot, cucumber, onion, cilantro with a hoysin sauce",
-                "spicy": false
-            },
-            {
                 "name": "Tofu freshroll",
                 "price": "9.99",
                 "description": "black mushroom, carrot, cucumber, onion, cilantro, bean sprouts a mix of tamarind & peanut sauce",
@@ -42,12 +36,6 @@
                 "name": "Salad freshroll",
                 "price": "9.99",
                 "description": "fresh mint, carrot, romain, cucumber, onion, cilantro, and imitation crab served with spicy garlic lime sauce & peanut",
-                "spicy": false
-            },
-            {
-                "name": "Fish Cake",
-                "price": "10.99",
-                "description": "Fish mousse mixed w/green bean,red curry paste served w/cucumber ,crushed peanut sweet & sour sauce",
                 "spicy": false
             },
             {
