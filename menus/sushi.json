@@ -102,7 +102,8 @@
                 "name": "Ichiban Salad",
                 "price": "15",
                 "description": "Spicy tuna, avocado, mango, spring mix, radish sprout in special sauce",
-                "spicy": false
+                "spicy": false,
+                "top": true
             },
             {
                 "name": "Snow Crab Salad",
@@ -146,19 +147,19 @@
             {
                 "name": "Veggie Lover Roll",
                 "price": "12",
-                "description": "(Inside) Avocado, cucumber, inari, gobo & oshinko\n(outside) Sesame, radish sprout & seaweed salad",
+                "description": "(Inside) Avocado, cucumber, inari, gobo & oshinko\n (outside) Sesame, radish sprout & seaweed salad",
                 "spicy": false
             },
             {
                 "name": "Deep-fried Veggie Roll",
                 "price": "12",
-                "description": "(Inside) assorted veggies tempura, avocado & broccoli\n(outside) sesame\n(sauce) sweet & sour and sweet sauce",
+                "description": "(Inside) assorted veggies tempura, avocado & broccoli\n (outside) sesame\n (sauce) sweet & sour and sweet sauce",
                 "spicy": false
             },
             {
                 "name": "Hot Veggie Fire Roll",
                 "price": "12",
-                "description": "(Inside) avocado, cucumber, gobo & jalapeño\n(outside) seaweed salad, fried onion, fried garlic, green onion & sesame\n(sauce) sweet sauce, spicy mayo & wasabi",
+                "description": "(Inside) avocado, cucumber, gobo & jalapeño\n (outside) seaweed salad, fried onion, fried garlic, green onion & sesame\n (sauce) sweet sauce, spicy mayo & wasabi",
                 "spicy": false
             },
             {
@@ -234,12 +235,102 @@
         "category":"Special Rolls",
         "items":[
             {
-                "name": "California Roll",
-                "price": "6",
-                "description": "Imitation crab, avocado & cucumber",
+                "name": "Dragon Roll",
+                "price": "14",
+                "description": "(inside) shrimp tempura, cucumber & imitation crab\n (outside) unagi, avocado & sesame\n (sauce) unagi sauce",
+                "spicy": false,
+                "top": true
+            },
+            {
+                "name": "Rainbow Roll",
+                "price": "15",
+                "description": "(inside) imitation crab, avocado & cucumber\n (outside) 6 different types of fish, avocado, tobiko, green onion & sesame\n (sauce) unagi sauce & ponzu sauce",
+                "spicy": false
+            },
+            {
+                "name": "Caterpillar Roll",
+                "price": "12",
+                "description": "(inside) imitation crab, unagi & cucumber\n (outside) avocado & sesame\n (sauce) unagi sauce",
+                "spicy": false
+            },
+            {
+                "name": "Cherry Blossom Roll",
+                "price": "12",
+                "description": "(inside) avocado & salmon\n (outside) tuna",
+                "spicy": false
+            },
+            {
+                "name": "Scallop Fantasy Roll",
+                "price": "13",
+                "description": "(inside) spicy salmon, avocado & cucumber\n (outside) deep-fried scallop, nuts, tobiko & crunch\n (sauce) unagi sauce & spicy mayo",
+                "spicy": false
+            },
+            {
+                "name": "Jeff's Special Roll",
+                "price": "14",
+                "description": "(inside) shrimp tempura, avocado & cucumber\n (outside) mixed spicy sashimi, green onion, tobiko & radish sprout",
+                "spicy": false
+            },
+            {
+                "name": "Sammy's Special Roll",
+                "price": "17",
+                "description": "(inside) softshell crab & cucumber\n (outside) Cajun albacore, radish & green onion\n (sauce) unagi sauce & miso sauce",
+                "spicy": false
+            },
+            {
+                "name": "Red Dragon Roll",
+                "price": "17",
+                "description": "(inside) shrimp tempura, avocado & cucumber\n (outside) spicy tuna, green onion, sesame & radish sprout\n (sauce) unagi sauce & spicy mayo",
+                "spicy": false
+            },
+            {
+                "name": "Lion King Roll",
+                "price": "12",
+                "description": "(inside) imitation crab & avocado\n (outside) baked salmon, green onion & sesame\n (sauce) unagi sauce, spicy mayo & honey mustard",
+                "spicy": false
+            },
+            {
+                "name": "Johnny's Love Roll",
+                "price": "12",
+                "description": "(inside) imitation crab & avocado\n (outside) baked scallop, green onion & sesame\n (sauce) unagi sauce, spicy mayo & honey mustard",
+                "spicy": false
+            },
+            {
+                "name": "Sushi Burrito Roll",
+                "price": "16",
+                "description": "(inside) imitation crab, avocado, cucumber, lettuce, tuna, salmon, shrimp tempura, crispy onion & crunch\n (sauce) wasabi sauce, unagi sauce & spicy mayo sauce",
+                "spicy": false
+            },
+            {
+                "name": "Spicy Fever Roll",
+                "price": "14",
+                "description": "(inside) spicy tuna, jalapeño, cucumber & gobo\n (outside) tuna, salmon, yellowtail, green onion, tobiko & crunch\n (sauce) unagi sauce, spicy mayo sauce, spicy sauce & wasabi",
+                "spicy": true
+            },
+            {
+                "name": "TGI Special Roll",
+                "price": "15",
+                "description": "(inside) shrimp tempura, avocado, cucumber\n (outside) salmon, spicy red crab & tobiko\n (sauce) unagi sauce & spicy mayo",
+                "spicy": true
+            },
+            {
+                "name": "Ebi Lover Roll",
+                "price": "12",
+                "description": "(inside) sushi shrimp, & avocado\n (outside) sushi shrimp, tobiko",
+                "spicy": false
+            },
+            {
+                "name": "Ninja Roll",
+                "price": "15",
+                "description": "(inside) deep-fried albacore, cucumber, gobo & cilantro\n (outside) Cajun albacore, green onion, sesame & tobiko\n (sauce) unagi sauce, tataki sauce & wasabi",
+                "spicy": false
+            },
+            {
+                "name": "Popcorn Wild Langostino",
+                "price": "16",
+                "description": "(inside) Deep-fried langostino, cucumber & gobo\n (outside) masako, extra deep fried langostino, sesame & green onion\n (sauce) Unagi sauce, sweet and sour sauce & honey mustard",
                 "spicy": false
             }
-            
         ]
     }
 ]
