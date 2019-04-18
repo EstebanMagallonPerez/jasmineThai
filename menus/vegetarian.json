@@ -9,7 +9,7 @@
                 "spicy": false
             },
             {
-                "name": "Fresh Rolls",
+                "name": "Fresh Rolls Tofu",
                 "price": "9.99",
                 "description": "Tofu, mushroom, vegetables wrapped with rice paper served with tamarind and peanut sauce.",
                 "spicy": false,
@@ -211,7 +211,7 @@
             },
             {
                 "name": "Mango Tofu Special",
-                "price": "10.99",
+                "price": "13.99",
                 "description": "Sautéed diced mango, fried tofu, cashew nuts, onions, ginger, bell peppers, carrots, and dried chili",
                 "spicy": false
             }
