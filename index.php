@@ -24,16 +24,14 @@
 		<div class="row">
 			<div class="col s12">
 				<ul class="tabs">
-					<li class="tab col s3"><a href="#lunch">Lunch</a></li>
-					<li class="tab col s3"><a class="active" href="#dinner">Dinner</a></li>
-					<li class="tab col s3"><a href="#vegetarian">Vegetarian</a></li>
-					<li class="tab col s3"><a href="#sushi">Sushi</a></li>
+					<li class="tab col s4"><a href="#lunch">Lunch</a></li>
+					<li class="tab col s4"><a class="active" href="#dinner">Dinner</a></li>
+					<li class="tab col s4"><a href="#vegetarian">Vegetarian</a></li>
 				</ul>
 			</div>
 			<div id="lunch" class="col s12">Lunch</div>
 			<div id="dinner" class="col s12">Dinner</div>
 			<div id="vegetarian" class="col s12">Vegetarian</div>
-			<div id="sushi" class="col s12">Sushi</div>
         </div>
 		<a class="waves-effect waves-light btn-large center" href="./menu.php">View Our Full Menu</a>
 	</div>
@@ -50,7 +48,6 @@
 	menu.loadTop("lunch","lunch");
 	menu.loadTop("dinner","dinner");
 	menu.loadTop("gross","vegetarian");
-	menu.loadTop("sushi","sushi");
 	$(".button-collapse").sideNav();
 </script>
 <?php include './template/botNav.php' ?>
