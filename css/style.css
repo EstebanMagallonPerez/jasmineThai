@@ -119,6 +119,12 @@ nav ul a:hover{
     padding-bottom: 20px;
     font-size:1.7rem;
 }
+.toast{
+    word-break: normal;
+    color: rgba(0, 0, 0, 0.87);
+    background-image: url(../assets/img/character_pattern_2X.jpg);
+    background-color: #f6aa48;
+}
 .center {
     text-align: center;
 }

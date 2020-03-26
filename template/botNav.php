@@ -70,4 +70,5 @@
             navigator.serviceWorker.register('./sw.js');
         });
     }
+    Materialize.toast('Amarin Thai will only be accepting orders for pickup.', 20000000);
 </script>
