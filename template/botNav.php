@@ -70,5 +70,5 @@
             navigator.serviceWorker.register('./sw.js');
         });
     }
-    Materialize.toast('Amarin Thai will only be accepting orders for pickup.', 20000000);
+    Materialize.toast('Amarin Thai will only be accepting orders for pickup. <br> Our lunch hours are normal <br> We will close at around 8 to 8:30PM for dinner', 20000000);
 </script>
