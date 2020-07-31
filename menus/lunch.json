@@ -116,32 +116,26 @@
 		"items":[
 			{
 				"name": "Chicken Curry Noodle Soup",
-				"price": "11.99",
+				"price": "15.99",
 				"description": "Curry sauce, thin rice noodles, chicken, tofu, cabbage, boiled egg, onions",
 				"spicy": false
 			},
 			{
 				"name": "Num-Sai Noodle Soup",
-				"price": "10.99",
+				"price": "15.99",
 				"description": "Light soup, thin rice noodles, imitation crab meat, shrimps, calamari, beansprouts, onions, cilantro, fried garlic",
 				"spicy": false
 			},
 			{
-				"name": "Yen-Ta-Fo Noodle Soup",
-				"price": "10.99",
-				"description": "Thick rice noodle soup, imitation crab, calamari, fried tofu, and spinach in chef's special sauce",
-				"spicy": false
-			},
-			{
 				"name": "Sukho Thai Noodle Soup",
-				"price": "10.99",
+				"price": "15.99",
 				"description": "Rice noodle soup, broiled pork, minced pork, imitation crab, onions, fried garlic, cilantro, crushed peanut",
 				"spicy": true,
 				"top":true
 			},
 			{
 				"name": "Wonton Soup",
-				"price": "9.99",
+				"price": "14.99",
 				"description": "Wonton, chicken, shrimp, sliced cabbage, fried garlic and green onion",
 				"spicy": false
 			}
