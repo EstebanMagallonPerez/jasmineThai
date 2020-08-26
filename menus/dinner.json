@@ -33,12 +33,6 @@
                 "spicy": false
             },
             {
-                "name": "Salad freshroll",
-                "price": "9.99",
-                "description": "fresh mint, carrot, romain, cucumber, onion, cilantro, and imitation crab served with spicy garlic lime sauce & peanut",
-                "spicy": false
-            },
-            {
                 "name": "Hot sticky wings",
                 "price": "10.99",
                 "description": "Fried chicken wings tossed in sweet, hot & sour sauce",
@@ -60,18 +54,6 @@
                 "name": "Coconut Prawns",
                 "price": "10.99",
                 "description": "Battered fried shrimp with coconut flakes on a romain blanket served with lime, ginger, shallot, peanut and bell pepper",
-                "spicy": false
-            },
-            {
-                "name": "Heavenly grilled pork",
-                "price": "10.99",
-                "description": "Traditional Thai style grilled pork served with tangy spicy dipping sauce",
-                "spicy": false
-            },
-            {
-                "name": "Chili Crusted Calamari",
-                "price": "10.99",
-                "description": "Fried Calamari served with homemade sauce",
                 "spicy": false
             }
         ]
@@ -129,13 +111,13 @@
             },
             {
                 "name": "BBQ Beef Salad",
-                "price": "12.99",
+                "price": "14.99",
                 "description": "Grilled beef with Thai herbs and roasted chili mixed in spicy lime dressing.",
                 "spicy": true
             },
             {
                 "name": "Larb Chicken Salad",
-                "price": "11.99",
+                "price": "12.99",
                 "description": "Chicken with ground-roasted rice, onion, cilantro, mint & spicy lime dressing",
                 "spicy": true
             },
@@ -165,32 +147,32 @@
         "items":[
             {
                 "name": "Tiger Cry",
-                "price": "14.99",
+                "price": "15.99",
                 "description": "Grilled New York steak served with steamed vegetables and spicy dipping sauce",
                 "spicy": true
             },
             {
                 "name": "BBQ Honey Beef",
-                "price": "11.99",
+                "price": "13.99",
                 "description": "Grilled marinated beef; served with crushed peanut tangy plum sauce",
                 "spicy": false
             },
             {
                 "name": "BBQ Honey Pork",
-                "price": "11.99",
+                "price": "13.99",
                 "description": "Grilled pork marinated with Thai spices; served with crushed peanut tangy plum sauce",
                 "spicy": false
             },
             {
                 "name": "BBQ Chicken",
-                "price": "13.99",
+                "price": "14.99",
                 "description": "Grilled whole chicken marinated with Thai spices; served with crushed peanut tangy plum sauce",
                 "spicy": false
             },
             {
-                "name": "E-Sarn Steak",
-                "price": "15.99",
-                "description": "Grilled lamb served with french fried & spicy dipping sauce",
+                "name": "Heavenly grilled pork",
+                "price": "12.99",
+                "description": "Grilled marinated pork jowl served with spicy tamarind sauce",
                 "spicy": false
             }
         ]
@@ -269,7 +251,7 @@
     },
     {
         "category":"Stir Fried",
-        "description":"Chicken or pork 13.99, beef 14.99 or, prawns, squid or fish $15.99",
+        "description":"Chicken or pork 13.99 beef 14.99 prawns or squid $15.99",
         "items":[
 
             {
@@ -316,11 +298,6 @@
                 "name": "Garlic Chicken or Pork",
                 "description": "Sautéed chicken breast or pork, garlic, black pepper, cilantro",
                 "spicy": false
-            },
-            {
-                "name": "Beef pepppercorn",
-                "description": "Sautéed beef, bell pepper,young pepper corn, onion, garlic, black pepper sauce",
-                "spicy": false
             }
         ]
     },
@@ -348,15 +325,21 @@
             },
             {
                 "name": "Crispy Salmon",
-                "price": "16.99",
+                "price": "17.99",
                 "description": "Fried batter Salmon sautéed w/ roasted red curry sauce bell pepper & Thai basil",
                 "spicy": true
             },
             {
                 "name": "Spicy Catfish",
-                "price": "15.99",
+                "price": "17.99",
                 "description": "Fried Catfish toss w/chilli paste ,bell pepper,galingale,pepper corn& Thai basil",
                 "spicy": true
+            },
+            {
+                "name": "Beef Peppercorn",
+                "price": "14.99",
+                "description": "Sautéed beef, bell pepper,young pepper corn, onion, garlic, black pepper sauce",
+                "spicy": false
             }
         ]
     },
@@ -364,7 +347,7 @@
         "category":"House Special",
         "items":[
             {
-                "name": "PaNang Fried Fish",
+                "name": "Panang Fried Fish",
                 "price": "15.99",
                 "description": "Fried Basa fish in panang coconut curry with zucchini, red bell, thai basil",
                 "spicy": true
@@ -396,7 +379,7 @@
             },
             {
                 "name": "Salmon",
-                "price": "16.99",
+                "price": "17.99",
                 "list":["Green Mango Salsa: Grilled fillet salmon; mango, ginger, onion, cilantro,bell pepper w/ spicy sauce",
                         "Tamarind Sauce: Grilled fillet salmon; served tamarind sauce,spinach,cilantro,crispy shallot",
                         "Green Curry: eggplant, peas, bell pepper, thai basil & coconut milk"],
@@ -404,7 +387,7 @@
             },
             {
                 "name": "Fried Filet Tilapia",
-                "price": "15.99",
+                "price": "16.99",
                 "list":["Chili sauce : Fried tilapia with onion,mushroom,baby corn,carrot,bell pepper",
                         "Hot-sweet-sour sauce: Fried tilapia with pineapple,onion,tomato,bell pepper"],
                 "spicy": true
