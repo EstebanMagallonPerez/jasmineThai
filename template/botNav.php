@@ -25,22 +25,22 @@
                         <tr>
                             <td>Mon - Thur</td>
                             <td>11:30 AM - 3 PM</td>
-                            <td>5 - 9:30 PM</td>
+                            <td>5 - 8:30 PM</td>
                         </tr>
                         <tr>
                             <td>Fri</td>
                             <td>11:30 AM - 3 PM</td>
-                            <td>5 - 10 PM</td>
+                            <td>5 - 9 PM</td>
                         </tr>
                         <tr>
                             <td>Sat</td>
                             <td>12 - 3 PM</td>
-                            <td>5 - 10 PM</td>
+                            <td>5 - 9 PM</td>
                         </tr>
                         <tr>
                             <td>Sun</td>
                             <td>12 - 3 PM</td>
-                            <td>5 - 9:30 PM</td>
+                            <td>5 - 8:30 PM</td>
                         </tr>
                     </tbody>
                 </table>
