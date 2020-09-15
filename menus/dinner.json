@@ -146,12 +146,6 @@
         "category":"BBQ",
         "items":[
             {
-                "name": "Tiger Cry",
-                "price": "15.99",
-                "description": "Grilled New York steak served with steamed vegetables and spicy dipping sauce",
-                "spicy": true
-            },
-            {
                 "name": "BBQ Honey Beef",
                 "price": "13.99",
                 "description": "Grilled marinated beef; served with crushed peanut tangy plum sauce",
